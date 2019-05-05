@@ -20,6 +20,27 @@ extern void _nop(void);
 extern const char here_str[]; // = "here";
 extern void _here(void);
 
+extern const char strlen_str[]; // = "strlen" // samsuanchen@gmail.com 20190502
+extern void _strlen(void);
+
+extern const char i_str[]; // = "i" // samsuanchen@gmail.com 20190502
+extern void _i(void);
+
+extern const char j_str[]; // = "j" // samsuanchen@gmail.com 20190502
+extern void _j(void);
+
+extern const char lt_str[]; // = "<" // samsuanchen@gmail.com 20190502
+extern void _lt(void);
+
+extern const char if_str[]; // = "if" // samsuanchen@gmail.com 20190502
+extern void _if(void);
+
+extern const char else_str[]; // = "else" // samsuanchen@gmail.com 20190502
+extern void _else(void);
+
+extern const char then_str[]; // = "then" // samsuanchen@gmail.com 20190502
+extern void _then(void);
+
 extern const char count_str[]; // = "count";
 extern void _count(void);
 
@@ -28,6 +49,9 @@ extern void _evaluate(void);
 
 extern const char word_str[]; // = "word";
 extern void _word(void);
+
+extern const char back_slash_str[]; // = "\\";
+extern void _back_slash();
 
 extern const char source_str[]; // = "source"; // ( -- c-addr u )
 extern void _source(void);
@@ -50,3 +74,5 @@ extern void _colon(void);
 extern const char semicolon_str[]; // = ";";
 extern void _semicolon(void);
 
+extern const char tick_str[]; //samsuanchen@gmail.com 20190502
+extern void _tick();          //samsuanchen@gmail.com 20190502

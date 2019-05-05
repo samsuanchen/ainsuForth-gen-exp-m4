@@ -18,20 +18,20 @@
 void dl_interpreter(void) {
     func function;
     // if (noInterpreter) { }
-    while (getToken()) {
+    while (getToken()) { // parse a string into cTokenBuffer
             /************************/
             /* Interpret Mode       */
             /************************/
-            if (isDLWord(cTokenBuffer)) {
+            if (isDLWord(cTokenBuffer)) { // get w and wordFlags
                 if (wordFlags & COMP_ONLY) {
                     dStack_push(-14);
                     _throw();
                     return;
                 }
-                if (w > 255) {
+                if (w > 255) { // w of DLWord could not be greater than 255
                     Serial.println("\r\ndebug: Error line 77 dl_interpreter.cpp.\r\n");
                 }
-                else {
+                else { // execute the DLWord
                     function = DLflashDict[w - 1].function;
                     function();
                     if (errorCode) return;

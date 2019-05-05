@@ -118,23 +118,45 @@ void _here(void) {
 }
 
 const char count_str[] = "count";
-// ( c-addr1 -- c-addr2 u )
+// ( c-addr -- c-addr+1 u ) // samsuanchen@gmail.com 20190502
 // Return the character string specification for the counted string stored a
-// c-addr1. c-addr2 is the address of the first character after c-addr1. u is the 
-// contents of the charater at c-addr1, which is the length in characters of the
-// string at c-addr2.
+// c-addr. c-addr+1 is the address of the first character after c-addr1. u is the 
+// contents of the charater at c-addr, which is the length in characters of the
+// string at c-addr+1.
 void _count(void) {
     uint8_t* addr = (uint8_t*)dStack_pop();
     cell_t value = *addr++;
     dStack_push((size_t)addr);
     dStack_push(value);
-
+/* samsuanchen@gmail.com 20190502
     _swap();
     addr = (uint8_t*)dStack_pop();
     // *addr++;  *addr++;  *addr++;
     addr = addr + 3;
     dStack_push((size_t)addr);
     _swap();
+*/
+}
+
+const char strlen_str[] = "strlen";
+void _strlen(void) { 
+// ( c-addr == u )
+// return u as the length of given string at c-addr
+	dStack_push( (cell_t) strlen( (char*) dStack_pop() ) );
+}
+
+const char i_str[] = "i";
+void _i(void) { 
+// ( == i )
+// return i as the index of working do-loop
+	dStack_push( rStack_peek(1) );
+}
+
+const char j_str[] = "j";
+void _j(void) { 
+// ( == j )
+// return j as the index of working outer do-loop
+	dStack_push( rStack_peek(4) );
 }
 
 const char evaluate_str[] = "evaluate";
@@ -144,19 +166,23 @@ const char evaluate_str[] = "evaluate";
 // source and input buffer, set >IN to zero, and interpret. When the parse area
 // is empty, restore the prior source specification. Other stack effects are due
 // to the words EVALUATEd.
-void _evaluate(void) {
+void _evaluate(void) { /* samsuanchen@gmail.com 20190502
     char* tempSource = cpSource;
     char* tempSourceEnd = cpSourceEnd;
-    char* tempToIn = cpToIn;
-
+    char* tempToIn = cpToIn; */
+	rStack_push( (cell_t) cpSource ); // samsuanchen@gmail.com 20190502
+	rStack_push( (cell_t) cpSourceEnd ); // samsuanchen@gmail.com 20190502
+	rStack_push( (cell_t) cpToIn ); // samsuanchen@gmail.com 20190502
     uint8_t length = dStack_pop();
     cpSource = (char*)dStack_pop();
     cpSourceEnd = cpSource + length;
     cpToIn = cpSource;
-    interpreter();
-    cpSource = tempSource;
-    cpSourceEnd = tempSourceEnd;
-    cpToIn = tempToIn;
+    interpreter(); /* samsuanchen@gmail.com 20190502
+	cpSource = tempSource;
+    cpSourceEnd = tempSourceEnd; */
+    cpToIn = (char*) rStack_pop(); // samsuanchen@gmail.com 20190502
+    cpSourceEnd = (char*) rStack_pop(); // samsuanchen@gmail.com 20190502
+    cpSource = (char*) rStack_pop(); // samsuanchen@gmail.com 20190502
 }
 
 // const char execute_str[] = "execute";
@@ -209,6 +235,17 @@ void _word(void) {
         } else *ptr++ = *cpToIn++;
     }
     cDelimiter = ' ';
+}
+
+const char back_slash_str[] = "\\";
+// ignore following chars until "\0", "\n", " \t", or "  "
+void _back_slash(){
+    while (cpToIn <= cpSourceEnd) {
+        if (*cpToIn == '\n' || *cpToIn == 0 || strncmp(cpToIn,"  ",2) == 0 || strncmp(cpToIn," \t",2) == 0 ) break;
+        cpToIn++;
+    }
+    if ( *(cpToIn-1) == 0 ) --cpToIn;
+    else if ( *cpToIn == ' ' ) ++cpToIn;
 }
 
 // const char c_comma_str[] = "c,";
@@ -432,12 +469,12 @@ void _tick(void) {
 
 
 
-// const char lt_str[] = "<";
+const char lt_str[] = "<";
 // ( n1 n2 -- flag )
-// void _lt(void) {
-//   if (dStack_pop() > dStack_pop()) dStack_push(TRUE);
-//   else dStack_push(FALSE);
-// }
+void _lt(void) {
+   if (dStack_pop() > dStack_pop()) dStack_push(TRUE);
+   else dStack_push(FALSE);
+}
 
 // const char lt_number_sign_str[] = "<#";
 // ( -- )
@@ -1664,48 +1701,48 @@ const char see_str[] = "see";
 void _see(void) {
     bool isLiteral, done;
     _tick();
-
     if (errorCode) return;
     char flags = wordFlags;
-
-    if (flags && IMMEDIATE)
-        Serial.print("Immediate ");
+	Serial.println();
+    if (flags && SMUDGE   ) Serial.print("SMUDGE "   );
+    if (flags && COMP_ONLY) Serial.print("COMP_ONLY ");
+    if (flags && IMMEDIATE) Serial.print("IMMEDIATE ");
     cell_t xt = dStack_pop();
-
     if (xt < 255) {
-        Serial.print("Primitive Word");
+    	Serial.print("LowLevel Primitive Word "); xtToName(xt); 
+        Serial.printf(" (%02X romEntry)", xt); 
     } else {
+    	Serial.print("HighLevel Colon Word "); xtToName(xt); 
+        Serial.printf(" (ramCFA %X)", xt);
         cell_t* addr = (cell_t*)xt;
-        Serial.print("\r\nCode Field Address: ");
-        Serial.print((size_t)addr, HEX);
-        Serial.print("\r\nAddr\tXT\tName");
+        Serial.print("\r\n    Addr       XT      Name");
         do {
-            isLiteral = done = false;
-            Serial.print("\r\n$");
+            done = isLiteral = false;
+            Serial.print("\r\n");
             Serial.print((size_t)addr, HEX);
-            Serial.print(tab_str);
-            Serial.print(*addr, HEX);
-            Serial.print(tab_str);
+            cell_t n = *addr;
+            Serial.printf(" %08X ", n);
             xtToName(*addr);
             switch (*addr) {
                 case 2:
                     isLiteral = true;
                 case 4:
                 case 5:
-                    Serial.print("(");
-                    Serial.print(*++addr);
-                    Serial.print(")");
+                    Serial.printf("(%08X)", *++addr,HEX);
+                    break;
+                case 9:
+                    Serial.printf("(%08X)", *++addr,HEX);
                     break;
                 case 13:
                 case 14:
                     Serial.print(sp_str);
                     char *ptr = (char*)++addr;
-                    do {
+                    while (*ptr) {
                         Serial.print(*ptr++);
-                    } while (*ptr != 0);
+                    }
                     Serial.print("\x22");
-                    addr = (cell_t *)ptr;
-                    ALIGN_P(addr);
+                    addr = (cell_t *)((int)ptr&-4); // samsuanchen@gmail.com 20190503
+                  //ALIGN_P(addr); // samsuanchen@gmail.com 20190503
                     break;
             } // switch
             // We're done if exit code but not a literal with value of one

@@ -16,15 +16,17 @@
 /**                                                                          **/
 /** Could this become the word FIND or ' (tick)?                             **/
 /******************************************************************************/
-uint8_t isWord(char* addr) {
+
+uint32_t isWord(char* addr) { // samsuanchen@gmail.com 20190502
   uint8_t index = 0;
   pUserEntry = pLastUserEntry;
   // First search through the user dictionary
   while (pUserEntry) {
     if (strcmp(pUserEntry->name, addr) == 0) {
       wordFlags = pUserEntry->flags;
-      w = (size_t)pUserEntry->cfa;
-      return 1;
+      w = (size_t)pUserEntry->cfa; /* samsuanchen@gmail.com 20190502
+      return 1; */
+      return w; // samsuanchen@gmail.com 20190502
     }
     pUserEntry = (userEntry_t*)pUserEntry->prevEntry;
   }
@@ -35,8 +37,9 @@ uint8_t isWord(char* addr) {
       wordFlags = flashDict[index].flags;
       if (wordFlags & SMUDGE) {
         return 0;
-      } else {
-        return 1;
+      } else { /* samsuanchen@gmail.com 20190502
+        return 1; */
+      	return w; // samsuanchen@gmail.com 20190502
       }
     }
     index++;

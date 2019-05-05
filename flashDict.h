@@ -10,4 +10,4 @@ extern cell_t dStack_pop(void);
 extern const flashEntry_t* pFlashEntry; // = flashDict;      the main forth vocabulary
 extern const flashEntry_t* pDLFlashEntry; // = DLflashDict;  the download vocabulary
 extern cell_t* pHere;
-
+extern void _dot_s(void);

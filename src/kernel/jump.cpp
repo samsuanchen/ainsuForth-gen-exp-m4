@@ -9,7 +9,7 @@
 #include "jump.h"
 const char jump_str[] = "jump";
 void _jump(void) {
-  ip = (cell_t*)((size_t)ip + *ip);
+  ip = (cell_t*)((size_t)*ip);
 }
 
 #endif

@@ -1,0 +1,37 @@
+\ samsuanchen@gmail.com 2019/04/30 09:30
+
+ : O \ ( pin -- ) set pinMode as OUTPUT
+   1 swap pinMode ;
+ : I \ ( pin -- ) set pinMode as INPUT
+   2 swap pinMode ;
+ : H \ ( pin -- ) set pinLevel as HIGH
+   1 swap pinWrite ;
+ : L \ ( pin -- ) set pinLevel as LOW
+   0 swap pinWrite ;
+ : T \ ( pin -- ) set pinLevel as toggle
+   1 over pinRead - swap pinWrite ;
+ : X \ ( n -- ) toggle led n times
+   13 O 0 do 13 T 500 delay loop ;
+ : ramWords ( -- ) show all words defined in ram
+   ramLast
+   begin dup
+   while dup >cfa .name space >link @
+   repeat drop ;
+ : romWords ( -- ) show all words defined in rom
+   1
+   begin dup .name space 1 + dup romEntry @ 0 =
+   until drop ;
+
+ : y if ." non-zero" else ." zero" then ; 
+ : z if ." non-" then ." zero" ;
+ : t 10 1 do cr 10 1 do i j * dup 10 < if space then loop loop ; see t
+
+exit literal type throw evaluate s" ." variable over = drop warm . - + 
+* 0= ! +! , / 2! 2@ 2drop : ; >r @ abs accept allot and c! c, c@ char constant 
+strlen i j < if else then count cr decimal do dup emit fill here loop max 
+min negate or quit r> r@ rot source space spaces swap u. word xor [char] 
+.( hex help who .s dump see words romEntry ramLast ' delay pinWrite pinMode 
+pinRead eflmkdir load echo! remove download
+
+: ramWords ramLast begin dup while dup >cfa .name space >link @ repeat drop ;
+: romWords 1 begin dup .name space 1 + dup romEntry @ 0 = until drop ;

@@ -1,3 +1,4 @@
+#define HAS_QSPI_FLASH_DEMO
 // Mon Nov 12 23:54:26 UTC 2018
 // 4737-a3c-00i- // ainsuForth-gen-exp-m4
 

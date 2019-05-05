@@ -9,7 +9,7 @@
 #include "zjump.h"
 const char zjump_str[] = "zjump";
 void _zjump(void) {
-  if (!dStack_pop()) ip = (cell_t*)((size_t)ip + *ip);
+  if (!dStack_pop()) ip = (cell_t*)((size_t)*ip);
   else ip++;
 }
 

@@ -140,6 +140,13 @@ void _emit(void) {
 // the address is now incremented by three, so that it now points
 // to the first character in the counted string.
 
+const char paren_str[] = "(";
+// ( "ccc<paren>" -- )
+// ignore ccc delimitied by ) (right parenthesis). ( is an immediate word.
+void _paren(void) { 
+  dStack_push(')'); _word(); dStack_pop();
+}
+
 const char dot_paren_str[] = ".(";
 // ( "ccc<paren>" -- )
 // Parse and display ccc delimitied by ) (right parenthesis). .( is an immediate word.
@@ -188,7 +195,6 @@ void _hex(void) { // value --
   base = HEX;
 }
 
-
 const char decimal_str[] = "decimal";
 // ( -- )
 // Set BASE to 10
@@ -196,6 +202,19 @@ void _decimal(void) { // value --
   base = DECIMAL;
 }
 
+const char romEntry_str[] = "romEntry";
+// ( w -- romEntryAddr )
+// get romEntryAddr
+void _romEntry(void) { // value --
+  dStack_push((cell_t)&flashDict[dStack_pop()-1]);
+}
+
+const char ramLast_str[] = "ramLast";
+// ( -- ramLastAddr )
+// get ramLastAddr
+void _ramLast(void) { // value --
+  dStack_push((cell_t)pLastUserEntry);
+}
 
 const char words_str[] = "words";
 void _words(void) { // --

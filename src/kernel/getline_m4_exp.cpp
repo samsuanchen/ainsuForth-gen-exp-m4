@@ -65,12 +65,15 @@
             #warning HAS_QSPI_FLASHROM_LIB includes extra code on line 65 __getline_m4_exp.cpp__ // 11 Nov 2018 - NEW LINE 66
             #define FLASH_DEVICE_GD25Q
             #ifdef FLASH_DEVICE_GD25Q
-                #include <Adafruit_SPIFlash.h> // NEW LINE 68
+                //#define FLASH_TYPE     SPIFLASHTYPE_W25Q16BV  // Flash chip type. // NEW LINE 71
+                #define FLASH_TYPE     SPIFLASHTYPE_W25Q128JV  // Flash chip type. //Albert 20190430
                 #include <Adafruit_SPIFlash_FatFs.h> // NEW LINE 69
                 #include "Adafruit_QSPI_GD25Q.h"
                 #define FLASH_TYPE     SPIFLASHTYPE_W25Q16BV  // Flash chip type. // NEW LINE 71
  
-                Adafruit_QSPI_GD25Q flash;
+                //Adafruit_QSPI_GD25Q flash;
+//                Adafruit_QSPI_GD25Q flash;
+                Adafruit_QSPI_Generic flash; // Albert 20190429
                 Adafruit_M0_Express_CircuitPython pythonfs(flash);
 
 
@@ -154,6 +157,7 @@ void setup_qspiFlashROM(void) { // void setup_spi_flash(void) {
         while(1);
     }
     Serial.println("NOV 2018: Mounted filesystem!");
+    Serial.print("SPI_FlashROM_FILENAME: "), Serial.println(SPI_FlashROM_FILENAME);
 }
         #endif // 15 Jan 2018
 

@@ -32,11 +32,12 @@ uint8_t isDLWord(char* addr) {
     if (!strcasecmp(addr, DLflashDict[index].name)) {
       w = index + 1;
       wordFlags = DLflashDict[index].flags;
+      return w; /* samsuanchen#gmail.com 20190502
       if (wordFlags & SMUDGE) {
         return 0;
       } else {
         return 1;
-      }
+      } */
     }
     index++;
   }

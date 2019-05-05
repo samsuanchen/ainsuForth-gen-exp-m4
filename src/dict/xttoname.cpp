@@ -27,6 +27,10 @@ char* xtToName(cell_t xt) {
   }
   return 0;
 }
+const char dot_name_str[] = ".name";
+void _dot_name(){
+	xtToName( dStack_pop() );
+}
 #endif
 
 /******************************************************************************/

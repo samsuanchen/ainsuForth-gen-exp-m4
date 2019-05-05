@@ -8,7 +8,7 @@
 #ifdef EXT_KERN_ENTRY
 #include "entry.h"
 /******************************************************************************/
-/** Start a New Entry in the Dictionary                                      **/
+/** Start a New Entry in the Dictionary ** create a colon word               **/
 /******************************************************************************/
 void openEntry(void) {
   uint8_t index = 0;
@@ -35,7 +35,7 @@ void openEntry(void) {
 }
 
 /******************************************************************************/
-/** Finish an new Entry in the Dictionary                                    **/
+/** Finish an new Entry in the Dictionary ** close a colon word              **/
 /******************************************************************************/
 void closeEntry(void) {
   if (errorCode == 0) {

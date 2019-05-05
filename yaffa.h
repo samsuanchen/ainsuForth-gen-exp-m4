@@ -294,6 +294,10 @@ static const unsigned long FORTH_SIZE    ((SRAM_SIZE*1024*2)/(sizeof(cell_t)*3))
 #define OF_SYS       -4
 #define LOOP_SYS     -5
 #define LEAVE_SYS    -6
+#define IF_SYS       -7
+#define ELSE_SYS     -8
+#define BEGIN_SYS    -9
+#define WHILE_SYS    -10
 
 /******************************************************************************/
 /**  User Dictionary Header                                                  **/
@@ -395,4 +399,3 @@ typedef struct {
 /** NodeMCU Amica Module    ESP8266                                          **/
 /**                                                                          **/
 /******************************************************************************/
-

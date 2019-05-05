@@ -31,6 +31,9 @@ extern void _dot_s(void);
 extern const char emit_str[]; // = "emit";
 extern void _emit(void);
 
+extern const char paren_str[]; // = "("; // samsuanchen@gmail.com 20190503
+extern void _paren(void); // samsuanchen@gmail.com 20190503
+
 extern const char dot_paren_str[]; // = ".(";
 extern void _dot_paren(void);
 
@@ -41,13 +44,19 @@ extern const char space_str[]; // = "space";
 extern void _space(void);
 
 extern const char spaces_str[]; // = "spaces";
-extern void _spaces(void);
+extern void _spaces(void); // n --
 
 extern const char hex_str[]; // = "hex";
-extern void _hex(void); // { // value --
+extern void _hex(void); // --
 
 extern const char decimal_str[]; // = "decimal";
 extern void _decimal(void);
+
+extern const char romEntry_str[]; // = "romEntry" // samsuanchen@gmail.com 20190502
+extern void _romEntry(void); // i -- romEntryAdr // samsuanchen@gmail.com 20190502
+
+extern const char ramLast_str[]; // = "ramLast" // samsuanchen@gmail.com 20190502
+extern void _ramLast(void); // -- ramLastAdr // samsuanchen@gmail.com 20190502
 
 extern const char words_str[]; // = "words";
 extern void _words(void); // --
@@ -58,6 +67,7 @@ extern void _zero_equal(void);
 extern const char delay_str[]; // = "delay";
 extern void _delay(void);
 
+extern cell_t dStack_pop();
 
 /******************************************************************************/
 /**  YAFFA - Yet Another Forth for Arduino                                   **/

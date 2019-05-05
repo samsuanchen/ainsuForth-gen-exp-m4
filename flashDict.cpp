@@ -46,10 +46,11 @@
 
 #include <Arduino.h>
 #include "yaffa.h"
-#include "src/dict/new_dict_entries.h" // #include "src/dict/dict_entries.h" // 21 June 2018
 #include "flashDict.h"
 #include "Dictionary.h"
 #include "Error_Codes.h"
+#include "src/dict/begin_while_repeat.h"
+#include "src/dict/new_dict_entries.h" // #include "src/dict/dict_entries.h" // 21 June 2018
 
 
 /*********************************************************************************/
@@ -180,7 +181,19 @@ const flashEntry_t flashDict[] = {
 
 //   { chars_str,          _chars,           NORMAL },
   { constant_str,       _constant,        NORMAL },
-  { count_str,          _count,           NORMAL },
+  { strlen_str,           _strlen,        NORMAL }, // added samsuanchen@gmail.com 20190502
+  { i_str,           _i,        NORMAL }, // added samsuanchen@gmail.com 20190502
+  { j_str,           _j,        NORMAL }, // added samsuanchen@gmail.com 20190502
+  { lt_str,         _lt,        NORMAL }, // added samsuanchen@gmail.com 20190502
+  { if_str,         _if,        IMMEDIATE + COMP_ONLY }, // added samsuanchen@gmail.com 20190502
+  { else_str,         _else,        IMMEDIATE + COMP_ONLY }, // added samsuanchen@gmail.com 20190502
+  { then_str,         _then,        IMMEDIATE + COMP_ONLY }, // added samsuanchen@gmail.com 20190502
+  { begin_str,         _begin,        IMMEDIATE + COMP_ONLY }, // added samsuanchen@gmail.com 20190502
+  { again_str,         _again,        IMMEDIATE + COMP_ONLY }, // added samsuanchen@gmail.com 20190502
+  { until_str,         _until,        IMMEDIATE + COMP_ONLY }, // added samsuanchen@gmail.com 20190502
+  { while_str,         _while,        IMMEDIATE + COMP_ONLY }, // added samsuanchen@gmail.com 20190502
+  { repeat_str,         _repeat,        IMMEDIATE + COMP_ONLY }, // added samsuanchen@gmail.com 20190502
+  { count_str,          _count,           NORMAL }, // updated samsuanchen@gmail.com 20190502
   { cr_str,             _cr,              NORMAL },
 //   { create_str,         _create,          NORMAL },
   { decimal_str,        _decimal,         NORMAL },
@@ -239,6 +252,7 @@ const flashEntry_t flashDict[] = {
 //   { until_str,          _until,           IMMEDIATE + COMP_ONLY },
 //   { while_str,          _while,           IMMEDIATE + COMP_ONLY },
   { word_str,           _word,            NORMAL },
+  { back_slash_str, _back_slash,       IMMEDIATE }, // added samsuanchen@gmail.com 20190503
   { xor_str,            _xor,             NORMAL },
 //   { left_bracket_str,   _left_bracket,    IMMEDIATE },
 //   { bracket_tick_str,   _bracket_tick,    IMMEDIATE },
@@ -246,6 +260,7 @@ const flashEntry_t flashDict[] = {
 //   { right_bracket_str,  _right_bracket,   NORMAL },
 
 #ifdef CORE_EXT_SET
+  { paren_str,      _paren,       IMMEDIATE }, // samsuanchen@gmail.com 20190503
   { dot_paren_str,      _dot_paren,       IMMEDIATE },
 //   { zero_not_equal_str, _zero_not_equal,  NORMAL },
 //   { zero_greater_str,   _zero_greater,    NORMAL },
@@ -281,8 +296,13 @@ const flashEntry_t flashDict[] = {
 #ifdef TOOLS_SET
   { dot_s_str,          _dot_s,           NORMAL },
   { dump_str,           _dump,            NORMAL },
-  { see_str,            _see,             NORMAL },
+  { see_str,            _see,             NORMAL }, // updated samsuanchen@gmail.com 20190503
   { words_str,          _words,           NORMAL },
+  { romEntry_str,       _romEntry,        NORMAL }, // added samsuanchen@gmail.com 20190503
+  {        ramLast_str, _ramLast,         NORMAL }, // added samsuanchen@gmail.com 20190503
+  {           tick_str, _tick,            NORMAL }, // added samsuanchen@gmail.com 20190502
+  {       dot_name_str, _dot_name,        NORMAL }, // added samsuanchen@gmail.com 20190503
+  
 #endif
 
 #ifdef SEARCH_SET
@@ -378,4 +398,3 @@ const flashEntry_t flashDict[] = {
 /**  along with YAFFA.  If not, see <http://www.gnu.org/licenses/>.          **/
 /**                                                                          **/
 /******************************************************************************/
-

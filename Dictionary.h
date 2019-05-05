@@ -112,4 +112,3 @@ extern void dStack_clear(void);
 extern void displayValue(void);
 
 extern uint8_t base;  // stores the number conversion radix
-

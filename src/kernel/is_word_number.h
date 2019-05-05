@@ -6,7 +6,7 @@ const char charset[] = "0123456789abcdef";
 #endif
 
 // prototypes - these words
-extern uint8_t isWord(char* addr);
+extern uint32_t isWord(char* addr); // samsuanchen@gmail.com 20190502
 extern uint8_t isNumber(char* subString);
 
 // prototypes - variables

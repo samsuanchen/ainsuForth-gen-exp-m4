@@ -370,7 +370,8 @@ SPI_FlashROM_FILENAME: /forth/ascii_xfer_a001.txt
  ok
 words 
 seeAll seeRomWords seeRamWords words ramWords countRamWords >cfa >link romWords countRomWords z y t X T L H I O download remove echo! load eflmkdir pinRead pinMode pinWrite delay .name ' ramLast romEntry words see (see) dump .s who help hex .( ( [char] xor \ word u. swap spaces space source rot r@ r> quit or negate min max loop here fill emit dup do decimal cr count repeat while until again begin then else if < j i strlen constant char c@ c, c! and allot accept abs @ >r ; : 2drop 2@ 2! / , +! ! 0= * + - . warm drop = over variable ." s" evaluate plus_loop-sys leave-sys loop-sys do-sys throw subroutine zjump jump type literal exit  ok
-seeAll 124 
+seeAll
+124 
 HighLevel Colon Word seeAll (ramCFA 20000728)
 20000728 20000668 seeRamWords
 2000072C 200006DC seeRomWords

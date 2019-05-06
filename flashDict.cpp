@@ -296,6 +296,7 @@ const flashEntry_t flashDict[] = {
 #ifdef TOOLS_SET
   { dot_s_str,          _dot_s,           NORMAL },
   { dump_str,           _dump,            NORMAL },
+  { psee_str,           _psee,            NORMAL }, // added samsuanchen@gmail.com 20190503
   { see_str,            _see,             NORMAL }, // updated samsuanchen@gmail.com 20190503
   { words_str,          _words,           NORMAL },
   { romEntry_str,       _romEntry,        NORMAL }, // added samsuanchen@gmail.com 20190503

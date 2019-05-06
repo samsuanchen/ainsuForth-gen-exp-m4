@@ -1691,16 +1691,10 @@ void _key_question(void) {
 // void _dump(void) { }
 
 
-
-
-const char see_str[] = "see";
-// ("<spaces>name" -- )
-// Display a human-readable representation of the named word's definition. The
-// source of the representation (object-code decompilation, source block, etc.)
-// and the particular form of the display in implementation defined.
-void _see(void) {
+const char psee_str[] = "(see)";
+// ( xt -- )
+void _psee(void) {
     bool isLiteral, done;
-    _tick();
     if (errorCode) return;
     char flags = wordFlags;
 	Serial.println();
@@ -1710,7 +1704,7 @@ void _see(void) {
     cell_t xt = dStack_pop();
     if (xt < 255) {
     	Serial.print("LowLevel Primitive Word "); xtToName(xt); 
-        Serial.printf(" (%02X romEntry)", xt); 
+        Serial.printf(" (romEntry %x)", &flashDict[xt-1]); 
     } else {
     	Serial.print("HighLevel Colon Word "); xtToName(xt); 
         Serial.printf(" (ramCFA %X)", xt);
@@ -1750,6 +1744,15 @@ void _see(void) {
         } while (! done); // do
     } // else
     Serial.println();
+}
+
+const char see_str[] = "see";
+// ("<spaces>name" -- )
+// Display a human-readable representation of the named word's definition. The
+// source of the representation (object-code decompilation, source block, etc.)
+// and the particular form of the display in implementation defined.
+void _see(void) {
+    _tick(); _psee();
 }
 
 #endif

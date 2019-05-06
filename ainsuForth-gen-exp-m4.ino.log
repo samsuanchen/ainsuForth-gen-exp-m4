@@ -1,68 +1,68 @@
-C:\Program Files (x86)\Arduino\arduino-builder -dump-prefs -logger=machine -hardware C:\Program Files (x86)\Arduino\hardware -hardware C:\Users\samsu\AppData\Local\Arduino15\packages -hardware C:\Users\samsu\Documents\Arduino\hardware -tools C:\Program Files (x86)\Arduino\tools-builder -tools C:\Program Files (x86)\Arduino\hardware\tools\avr -tools C:\Users\samsu\AppData\Local\Arduino15\packages -built-in-libraries C:\Program Files (x86)\Arduino\libraries -libraries C:\Users\samsu\Documents\Arduino\libraries -fqbn=adafruit:samd:adafruit_itsybitsy_m4:cache=on,speed=120,opt=small,maxspi=24,maxqspi=50 -vid-pid=0X239A_0X802B -ide-version=10809 -build-path C:\Users\samsu\AppData\Local\Temp\arduino_build_684607 -warnings=none -build-cache C:\Users\samsu\AppData\Local\Temp\arduino_cache_339528 -prefs=build.warn_data_percentage=75 -prefs=runtime.tools.arm-none-eabi-gcc.path=C:\Users\samsu\AppData\Local\Arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1 -prefs=runtime.tools.arm-none-eabi-gcc-4.8.3-2014q1.path=C:\Users\samsu\AppData\Local\Arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1 -prefs=runtime.tools.CMSIS-Atmel.path=C:\Users\samsu\AppData\Local\Arduino15\packages\arduino\tools\CMSIS-Atmel\1.2.0 -prefs=runtime.tools.CMSIS-Atmel-1.2.0.path=C:\Users\samsu\AppData\Local\Arduino15\packages\arduino\tools\CMSIS-Atmel\1.2.0 -prefs=runtime.tools.CMSIS.path=C:\Users\samsu\AppData\Local\Arduino15\packages\arduino\tools\CMSIS\4.5.0 -prefs=runtime.tools.CMSIS-4.5.0.path=C:\Users\samsu\AppData\Local\Arduino15\packages\arduino\tools\CMSIS\4.5.0 -prefs=runtime.tools.openocd.path=C:\Users\samsu\AppData\Local\Arduino15\packages\arduino\tools\openocd\0.9.0-arduino -prefs=runtime.tools.openocd-0.9.0-arduino.path=C:\Users\samsu\AppData\Local\Arduino15\packages\arduino\tools\openocd\0.9.0-arduino -prefs=runtime.tools.bossac.path=C:\Users\samsu\AppData\Local\Arduino15\packages\arduino\tools\bossac\1.8.0-48-gb176eee -prefs=runtime.tools.bossac-1.8.0-48-gb176eee.path=C:\Users\samsu\AppData\Local\Arduino15\packages\arduino\tools\bossac\1.8.0-48-gb176eee -verbose C:\Users\samsu\Documents\Arduino\ainsuForth-gen-exp-m4\ainsuForth-gen-exp-m4.ino
-C:\Program Files (x86)\Arduino\arduino-builder -compile -logger=machine -hardware C:\Program Files (x86)\Arduino\hardware -hardware C:\Users\samsu\AppData\Local\Arduino15\packages -hardware C:\Users\samsu\Documents\Arduino\hardware -tools C:\Program Files (x86)\Arduino\tools-builder -tools C:\Program Files (x86)\Arduino\hardware\tools\avr -tools C:\Users\samsu\AppData\Local\Arduino15\packages -built-in-libraries C:\Program Files (x86)\Arduino\libraries -libraries C:\Users\samsu\Documents\Arduino\libraries -fqbn=adafruit:samd:adafruit_itsybitsy_m4:cache=on,speed=120,opt=small,maxspi=24,maxqspi=50 -vid-pid=0X239A_0X802B -ide-version=10809 -build-path C:\Users\samsu\AppData\Local\Temp\arduino_build_684607 -warnings=none -build-cache C:\Users\samsu\AppData\Local\Temp\arduino_cache_339528 -prefs=build.warn_data_percentage=75 -prefs=runtime.tools.arm-none-eabi-gcc.path=C:\Users\samsu\AppData\Local\Arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1 -prefs=runtime.tools.arm-none-eabi-gcc-4.8.3-2014q1.path=C:\Users\samsu\AppData\Local\Arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1 -prefs=runtime.tools.CMSIS-Atmel.path=C:\Users\samsu\AppData\Local\Arduino15\packages\arduino\tools\CMSIS-Atmel\1.2.0 -prefs=runtime.tools.CMSIS-Atmel-1.2.0.path=C:\Users\samsu\AppData\Local\Arduino15\packages\arduino\tools\CMSIS-Atmel\1.2.0 -prefs=runtime.tools.CMSIS.path=C:\Users\samsu\AppData\Local\Arduino15\packages\arduino\tools\CMSIS\4.5.0 -prefs=runtime.tools.CMSIS-4.5.0.path=C:\Users\samsu\AppData\Local\Arduino15\packages\arduino\tools\CMSIS\4.5.0 -prefs=runtime.tools.openocd.path=C:\Users\samsu\AppData\Local\Arduino15\packages\arduino\tools\openocd\0.9.0-arduino -prefs=runtime.tools.openocd-0.9.0-arduino.path=C:\Users\samsu\AppData\Local\Arduino15\packages\arduino\tools\openocd\0.9.0-arduino -prefs=runtime.tools.bossac.path=C:\Users\samsu\AppData\Local\Arduino15\packages\arduino\tools\bossac\1.8.0-48-gb176eee -prefs=runtime.tools.bossac-1.8.0-48-gb176eee.path=C:\Users\samsu\AppData\Local\Arduino15\packages\arduino\tools\bossac\1.8.0-48-gb176eee -verbose C:\Users\samsu\Documents\Arduino\ainsuForth-gen-exp-m4\ainsuForth-gen-exp-m4.ino
+C:\Program Files (x86)\Arduino\arduino-builder -dump-prefs -logger=machine -hardware C:\Program Files (x86)\Arduino\hardware -hardware C:\Users\samsu\AppData\Local\Arduino15\packages -hardware C:\Users\samsu\Documents\Arduino\hardware -tools C:\Program Files (x86)\Arduino\tools-builder -tools C:\Program Files (x86)\Arduino\hardware\tools\avr -tools C:\Users\samsu\AppData\Local\Arduino15\packages -built-in-libraries C:\Program Files (x86)\Arduino\libraries -libraries C:\Users\samsu\Documents\Arduino\libraries -fqbn=adafruit:samd:adafruit_itsybitsy_m4:cache=on,speed=120,opt=small,maxspi=24,maxqspi=50 -vid-pid=0X239A_0X802B -ide-version=10809 -build-path C:\Users\samsu\AppData\Local\Temp\arduino_build_540011 -warnings=none -build-cache C:\Users\samsu\AppData\Local\Temp\arduino_cache_643998 -prefs=build.warn_data_percentage=75 -prefs=runtime.tools.arm-none-eabi-gcc.path=C:\Users\samsu\AppData\Local\Arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1 -prefs=runtime.tools.arm-none-eabi-gcc-4.8.3-2014q1.path=C:\Users\samsu\AppData\Local\Arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1 -prefs=runtime.tools.CMSIS-Atmel.path=C:\Users\samsu\AppData\Local\Arduino15\packages\arduino\tools\CMSIS-Atmel\1.2.0 -prefs=runtime.tools.CMSIS-Atmel-1.2.0.path=C:\Users\samsu\AppData\Local\Arduino15\packages\arduino\tools\CMSIS-Atmel\1.2.0 -prefs=runtime.tools.CMSIS.path=C:\Users\samsu\AppData\Local\Arduino15\packages\arduino\tools\CMSIS\4.5.0 -prefs=runtime.tools.CMSIS-4.5.0.path=C:\Users\samsu\AppData\Local\Arduino15\packages\arduino\tools\CMSIS\4.5.0 -prefs=runtime.tools.openocd.path=C:\Users\samsu\AppData\Local\Arduino15\packages\arduino\tools\openocd\0.9.0-arduino -prefs=runtime.tools.openocd-0.9.0-arduino.path=C:\Users\samsu\AppData\Local\Arduino15\packages\arduino\tools\openocd\0.9.0-arduino -prefs=runtime.tools.bossac.path=C:\Users\samsu\AppData\Local\Arduino15\packages\arduino\tools\bossac\1.8.0-48-gb176eee -prefs=runtime.tools.bossac-1.8.0-48-gb176eee.path=C:\Users\samsu\AppData\Local\Arduino15\packages\arduino\tools\bossac\1.8.0-48-gb176eee -verbose C:\Users\samsu\Documents\Arduino\ainsuForth-gen-exp-m4\ainsuForth-gen-exp-m4.ino
+C:\Program Files (x86)\Arduino\arduino-builder -compile -logger=machine -hardware C:\Program Files (x86)\Arduino\hardware -hardware C:\Users\samsu\AppData\Local\Arduino15\packages -hardware C:\Users\samsu\Documents\Arduino\hardware -tools C:\Program Files (x86)\Arduino\tools-builder -tools C:\Program Files (x86)\Arduino\hardware\tools\avr -tools C:\Users\samsu\AppData\Local\Arduino15\packages -built-in-libraries C:\Program Files (x86)\Arduino\libraries -libraries C:\Users\samsu\Documents\Arduino\libraries -fqbn=adafruit:samd:adafruit_itsybitsy_m4:cache=on,speed=120,opt=small,maxspi=24,maxqspi=50 -vid-pid=0X239A_0X802B -ide-version=10809 -build-path C:\Users\samsu\AppData\Local\Temp\arduino_build_540011 -warnings=none -build-cache C:\Users\samsu\AppData\Local\Temp\arduino_cache_643998 -prefs=build.warn_data_percentage=75 -prefs=runtime.tools.arm-none-eabi-gcc.path=C:\Users\samsu\AppData\Local\Arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1 -prefs=runtime.tools.arm-none-eabi-gcc-4.8.3-2014q1.path=C:\Users\samsu\AppData\Local\Arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1 -prefs=runtime.tools.CMSIS-Atmel.path=C:\Users\samsu\AppData\Local\Arduino15\packages\arduino\tools\CMSIS-Atmel\1.2.0 -prefs=runtime.tools.CMSIS-Atmel-1.2.0.path=C:\Users\samsu\AppData\Local\Arduino15\packages\arduino\tools\CMSIS-Atmel\1.2.0 -prefs=runtime.tools.CMSIS.path=C:\Users\samsu\AppData\Local\Arduino15\packages\arduino\tools\CMSIS\4.5.0 -prefs=runtime.tools.CMSIS-4.5.0.path=C:\Users\samsu\AppData\Local\Arduino15\packages\arduino\tools\CMSIS\4.5.0 -prefs=runtime.tools.openocd.path=C:\Users\samsu\AppData\Local\Arduino15\packages\arduino\tools\openocd\0.9.0-arduino -prefs=runtime.tools.openocd-0.9.0-arduino.path=C:\Users\samsu\AppData\Local\Arduino15\packages\arduino\tools\openocd\0.9.0-arduino -prefs=runtime.tools.bossac.path=C:\Users\samsu\AppData\Local\Arduino15\packages\arduino\tools\bossac\1.8.0-48-gb176eee -prefs=runtime.tools.bossac-1.8.0-48-gb176eee.path=C:\Users\samsu\AppData\Local\Arduino15\packages\arduino\tools\bossac\1.8.0-48-gb176eee -verbose C:\Users\samsu\Documents\Arduino\ainsuForth-gen-exp-m4\ainsuForth-gen-exp-m4.ino
 Using board 'adafruit_itsybitsy_m4' from platform in folder: C:\Users\samsu\AppData\Local\Arduino15\packages\adafruit\hardware\samd\1.4.1
 Using core 'arduino' from platform in folder: C:\Users\samsu\AppData\Local\Arduino15\packages\adafruit\hardware\samd\1.4.1
 Detecting libraries used...
-"C:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++" -mcpu=cortex-m4 -mthumb -c -g -Os -w -std=gnu++11 -ffunction-sections -fdata-sections -fno-threadsafe-statics -nostdlib --param max-inline-insns-single=500 -fno-rtti -fno-exceptions "-D__SKETCH_NAME__=\"\"\"ainsuForth-gen-exp-m4.ino\"\"\"" -w -x c++ -E -CC -DF_CPU=120000000L -DARDUINO=10809 -DARDUINO_ITSYBITSY_M4 -DARDUINO_ARCH_SAMD -D__SAMD51G19A__ -DADAFRUIT_ITSYBITSY_M4_EXPRESS -D__SAMD51__ -DUSB_VID=0x239A -DUSB_PID=0x802B -DUSBCON "-DUSB_MANUFACTURER=\"Adafruit LLC\"" "-DUSB_PRODUCT=\"Adafruit ItsyBitsy M4\"" -D__FPU_PRESENT -DARM_MATH_CM4 -DCRYSTALLESS -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DENABLE_CACHE -Os -DMAX_SPI=24000000 -DVARIANT_QSPI_BAUD_DEFAULT=50000000 "-IC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/" "-IC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.2.0/CMSIS/Device/ATMEL/" "-IC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\samd\\1.4.1\\cores\\arduino" "-IC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\samd\\1.4.1\\variants\\itsybitsy_m4" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\ainsuForth-gen-exp-m4.ino.cpp" -o nul
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\ainsuForthsketch.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\flashDict.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\dict\accept.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\dict\allot.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\dict\begin_while_repeat.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\dict\cblink.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\dict\char.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\dict\colon_semi.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\dict\constant.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\dict\dict_comments_only.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\dict\do_loop.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\dict\dump.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\dict\help.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\dict\iasmd.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\dict\if_else_then.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\dict\max_min.cpp
-"C:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++" -mcpu=cortex-m4 -mthumb -c -g -Os -w -std=gnu++11 -ffunction-sections -fdata-sections -fno-threadsafe-statics -nostdlib --param max-inline-insns-single=500 -fno-rtti -fno-exceptions "-D__SKETCH_NAME__=\"\"\"ainsuForth-gen-exp-m4.ino\"\"\"" -w -x c++ -E -CC -DF_CPU=120000000L -DARDUINO=10809 -DARDUINO_ITSYBITSY_M4 -DARDUINO_ARCH_SAMD -D__SAMD51G19A__ -DADAFRUIT_ITSYBITSY_M4_EXPRESS -D__SAMD51__ -DUSB_VID=0x239A -DUSB_PID=0x802B -DUSBCON "-DUSB_MANUFACTURER=\"Adafruit LLC\"" "-DUSB_PRODUCT=\"Adafruit ItsyBitsy M4\"" -D__FPU_PRESENT -DARM_MATH_CM4 -DCRYSTALLESS -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DENABLE_CACHE -Os -DMAX_SPI=24000000 -DVARIANT_QSPI_BAUD_DEFAULT=50000000 "-IC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/" "-IC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.2.0/CMSIS/Device/ATMEL/" "-IC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\samd\\1.4.1\\cores\\arduino" "-IC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\samd\\1.4.1\\variants\\itsybitsy_m4" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\dict\\new_dict_entries.cpp" -o nul
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\dict\stack_ops.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\dict\store_fetch.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\dict\xttoname.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\dl_interpreter.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\do_sys.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\dot_quote.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\download.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\drop.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\entry.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\eq.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\execute_word.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\exit.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\getline.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\getline_m0_exp.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\getline_m4_exp.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\gettoken.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\interpreter.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\is_dl_word_number.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\is_word_number.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\jump.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\leave_sys.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\literal.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\load.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\loop_sys.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\over.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\plus_loop_sys.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\quit.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\remove.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\s_quote.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\signon.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\stacks.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\strings.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\subroutine.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\target_sensed.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\throw.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\type.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\variable.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\warm.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\zjump.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\periph\dotstar.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\periph\neo_pixel.cpp
-Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\periph\qspi\flashrom.cpp
+"C:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++" -mcpu=cortex-m4 -mthumb -c -g -Os -w -std=gnu++11 -ffunction-sections -fdata-sections -fno-threadsafe-statics -nostdlib --param max-inline-insns-single=500 -fno-rtti -fno-exceptions "-D__SKETCH_NAME__=\"\"\"ainsuForth-gen-exp-m4.ino\"\"\"" -w -x c++ -E -CC -DF_CPU=120000000L -DARDUINO=10809 -DARDUINO_ITSYBITSY_M4 -DARDUINO_ARCH_SAMD -D__SAMD51G19A__ -DADAFRUIT_ITSYBITSY_M4_EXPRESS -D__SAMD51__ -DUSB_VID=0x239A -DUSB_PID=0x802B -DUSBCON "-DUSB_MANUFACTURER=\"Adafruit LLC\"" "-DUSB_PRODUCT=\"Adafruit ItsyBitsy M4\"" -D__FPU_PRESENT -DARM_MATH_CM4 -DCRYSTALLESS -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DENABLE_CACHE -Os -DMAX_SPI=24000000 -DVARIANT_QSPI_BAUD_DEFAULT=50000000 "-IC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/" "-IC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.2.0/CMSIS/Device/ATMEL/" "-IC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\samd\\1.4.1\\cores\\arduino" "-IC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\samd\\1.4.1\\variants\\itsybitsy_m4" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\ainsuForth-gen-exp-m4.ino.cpp" -o nul
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\ainsuForthsketch.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\flashDict.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\dict\accept.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\dict\allot.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\dict\begin_while_repeat.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\dict\cblink.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\dict\char.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\dict\colon_semi.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\dict\constant.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\dict\dict_comments_only.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\dict\do_loop.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\dict\dump.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\dict\help.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\dict\iasmd.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\dict\if_else_then.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\dict\max_min.cpp
+"C:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++" -mcpu=cortex-m4 -mthumb -c -g -Os -w -std=gnu++11 -ffunction-sections -fdata-sections -fno-threadsafe-statics -nostdlib --param max-inline-insns-single=500 -fno-rtti -fno-exceptions "-D__SKETCH_NAME__=\"\"\"ainsuForth-gen-exp-m4.ino\"\"\"" -w -x c++ -E -CC -DF_CPU=120000000L -DARDUINO=10809 -DARDUINO_ITSYBITSY_M4 -DARDUINO_ARCH_SAMD -D__SAMD51G19A__ -DADAFRUIT_ITSYBITSY_M4_EXPRESS -D__SAMD51__ -DUSB_VID=0x239A -DUSB_PID=0x802B -DUSBCON "-DUSB_MANUFACTURER=\"Adafruit LLC\"" "-DUSB_PRODUCT=\"Adafruit ItsyBitsy M4\"" -D__FPU_PRESENT -DARM_MATH_CM4 -DCRYSTALLESS -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DENABLE_CACHE -Os -DMAX_SPI=24000000 -DVARIANT_QSPI_BAUD_DEFAULT=50000000 "-IC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/" "-IC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.2.0/CMSIS/Device/ATMEL/" "-IC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\samd\\1.4.1\\cores\\arduino" "-IC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\samd\\1.4.1\\variants\\itsybitsy_m4" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\dict\\new_dict_entries.cpp" -o nul
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\dict\stack_ops.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\dict\store_fetch.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\dict\xttoname.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\dl_interpreter.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\do_sys.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\dot_quote.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\download.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\drop.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\entry.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\eq.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\execute_word.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\exit.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\getline.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\getline_m0_exp.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\getline_m4_exp.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\gettoken.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\interpreter.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\is_dl_word_number.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\is_word_number.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\jump.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\leave_sys.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\literal.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\load.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\loop_sys.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\over.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\plus_loop_sys.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\quit.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\remove.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\s_quote.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\signon.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\stacks.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\strings.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\subroutine.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\target_sensed.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\throw.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\type.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\variable.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\warm.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\zjump.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\periph\dotstar.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\periph\neo_pixel.cpp
+Using cached library dependencies for file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\periph\qspi\flashrom.cpp
 Using cached library dependencies for file: C:\Users\samsu\Documents\Arduino\libraries\Adafruit_SPIFlash\Adafruit_SPIFlash.cpp
 Using cached library dependencies for file: C:\Users\samsu\Documents\Arduino\libraries\Adafruit_SPIFlash\Adafruit_SPIFlash_FatFs.cpp
 Using cached library dependencies for file: C:\Users\samsu\Documents\Arduino\libraries\Adafruit_SPIFlash\utility\ccsbcs.c
@@ -75,97 +75,97 @@ Using cached library dependencies for file: C:\Users\samsu\Documents\Arduino\lib
 Using cached library dependencies for file: C:\Users\samsu\Documents\Arduino\libraries\Adafruit_QSPI\Adafruit_QSPI_S25FL1.cpp
 Using cached library dependencies for file: C:\Users\samsu\Documents\Arduino\libraries\Adafruit_DotStar\Adafruit_DotStar.cpp
 Generating function prototypes...
-"C:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++" -mcpu=cortex-m4 -mthumb -c -g -Os -w -std=gnu++11 -ffunction-sections -fdata-sections -fno-threadsafe-statics -nostdlib --param max-inline-insns-single=500 -fno-rtti -fno-exceptions "-D__SKETCH_NAME__=\"\"\"ainsuForth-gen-exp-m4.ino\"\"\"" -w -x c++ -E -CC -DF_CPU=120000000L -DARDUINO=10809 -DARDUINO_ITSYBITSY_M4 -DARDUINO_ARCH_SAMD -D__SAMD51G19A__ -DADAFRUIT_ITSYBITSY_M4_EXPRESS -D__SAMD51__ -DUSB_VID=0x239A -DUSB_PID=0x802B -DUSBCON "-DUSB_MANUFACTURER=\"Adafruit LLC\"" "-DUSB_PRODUCT=\"Adafruit ItsyBitsy M4\"" -D__FPU_PRESENT -DARM_MATH_CM4 -DCRYSTALLESS -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DENABLE_CACHE -Os -DMAX_SPI=24000000 -DVARIANT_QSPI_BAUD_DEFAULT=50000000 "-IC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/" "-IC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.2.0/CMSIS/Device/ATMEL/" "-IC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\samd\\1.4.1\\cores\\arduino" "-IC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\samd\\1.4.1\\variants\\itsybitsy_m4" "-IC:\\Users\\samsu\\Documents\\Arduino\\libraries\\Adafruit_SPIFlash" "-IC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\samd\\1.4.1\\libraries\\SPI" "-IC:\\Users\\samsu\\Documents\\Arduino\\libraries\\Adafruit_QSPI" "-IC:\\Users\\samsu\\Documents\\Arduino\\libraries\\Adafruit_DotStar" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\ainsuForth-gen-exp-m4.ino.cpp" -o "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\preproc\\ctags_target_for_gcc_minus_e.cpp"
-"C:\\Program Files (x86)\\Arduino\\tools-builder\\ctags\\5.8-arduino11/ctags" -u --language-force=c++ -f - --c++-kinds=svpf --fields=KSTtzns --line-directives "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\preproc\\ctags_target_for_gcc_minus_e.cpp"
+"C:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++" -mcpu=cortex-m4 -mthumb -c -g -Os -w -std=gnu++11 -ffunction-sections -fdata-sections -fno-threadsafe-statics -nostdlib --param max-inline-insns-single=500 -fno-rtti -fno-exceptions "-D__SKETCH_NAME__=\"\"\"ainsuForth-gen-exp-m4.ino\"\"\"" -w -x c++ -E -CC -DF_CPU=120000000L -DARDUINO=10809 -DARDUINO_ITSYBITSY_M4 -DARDUINO_ARCH_SAMD -D__SAMD51G19A__ -DADAFRUIT_ITSYBITSY_M4_EXPRESS -D__SAMD51__ -DUSB_VID=0x239A -DUSB_PID=0x802B -DUSBCON "-DUSB_MANUFACTURER=\"Adafruit LLC\"" "-DUSB_PRODUCT=\"Adafruit ItsyBitsy M4\"" -D__FPU_PRESENT -DARM_MATH_CM4 -DCRYSTALLESS -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DENABLE_CACHE -Os -DMAX_SPI=24000000 -DVARIANT_QSPI_BAUD_DEFAULT=50000000 "-IC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/" "-IC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.2.0/CMSIS/Device/ATMEL/" "-IC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\samd\\1.4.1\\cores\\arduino" "-IC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\samd\\1.4.1\\variants\\itsybitsy_m4" "-IC:\\Users\\samsu\\Documents\\Arduino\\libraries\\Adafruit_SPIFlash" "-IC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\samd\\1.4.1\\libraries\\SPI" "-IC:\\Users\\samsu\\Documents\\Arduino\\libraries\\Adafruit_QSPI" "-IC:\\Users\\samsu\\Documents\\Arduino\\libraries\\Adafruit_DotStar" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\ainsuForth-gen-exp-m4.ino.cpp" -o "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\preproc\\ctags_target_for_gcc_minus_e.cpp"
+"C:\\Program Files (x86)\\Arduino\\tools-builder\\ctags\\5.8-arduino11/ctags" -u --language-force=c++ -f - --c++-kinds=svpf --fields=KSTtzns --line-directives "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\preproc\\ctags_target_for_gcc_minus_e.cpp"
 Compiling sketch...
-"C:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++" -mcpu=cortex-m4 -mthumb -c -g -Os -w -std=gnu++11 -ffunction-sections -fdata-sections -fno-threadsafe-statics -nostdlib --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD "-D__SKETCH_NAME__=\"\"\"ainsuForth-gen-exp-m4.ino\"\"\"" -DF_CPU=120000000L -DARDUINO=10809 -DARDUINO_ITSYBITSY_M4 -DARDUINO_ARCH_SAMD -D__SAMD51G19A__ -DADAFRUIT_ITSYBITSY_M4_EXPRESS -D__SAMD51__ -DUSB_VID=0x239A -DUSB_PID=0x802B -DUSBCON "-DUSB_MANUFACTURER=\"Adafruit LLC\"" "-DUSB_PRODUCT=\"Adafruit ItsyBitsy M4\"" -D__FPU_PRESENT -DARM_MATH_CM4 -DCRYSTALLESS -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DENABLE_CACHE -Os -DMAX_SPI=24000000 -DVARIANT_QSPI_BAUD_DEFAULT=50000000 "-IC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/" "-IC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.2.0/CMSIS/Device/ATMEL/" "-IC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\samd\\1.4.1\\cores\\arduino" "-IC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\samd\\1.4.1\\variants\\itsybitsy_m4" "-IC:\\Users\\samsu\\Documents\\Arduino\\libraries\\Adafruit_SPIFlash" "-IC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\samd\\1.4.1\\libraries\\SPI" "-IC:\\Users\\samsu\\Documents\\Arduino\\libraries\\Adafruit_QSPI" "-IC:\\Users\\samsu\\Documents\\Arduino\\libraries\\Adafruit_DotStar" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\ainsuForth-gen-exp-m4.ino.cpp" -o "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\ainsuForth-gen-exp-m4.ino.cpp.o"
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\ainsuForthsketch.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\flashDict.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\periph\qspi\flashrom.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\getline_m0_exp.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\getline_m4_exp.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\dict\char.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\dict\help.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\dict\dump.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\dict\accept.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\dict\allot.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\gettoken.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\dict\begin_while_repeat.cpp.o
-"C:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++" -mcpu=cortex-m4 -mthumb -c -g -Os -w -std=gnu++11 -ffunction-sections -fdata-sections -fno-threadsafe-statics -nostdlib --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD "-D__SKETCH_NAME__=\"\"\"ainsuForth-gen-exp-m4.ino\"\"\"" -DF_CPU=120000000L -DARDUINO=10809 -DARDUINO_ITSYBITSY_M4 -DARDUINO_ARCH_SAMD -D__SAMD51G19A__ -DADAFRUIT_ITSYBITSY_M4_EXPRESS -D__SAMD51__ -DUSB_VID=0x239A -DUSB_PID=0x802B -DUSBCON "-DUSB_MANUFACTURER=\"Adafruit LLC\"" "-DUSB_PRODUCT=\"Adafruit ItsyBitsy M4\"" -D__FPU_PRESENT -DARM_MATH_CM4 -DCRYSTALLESS -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DENABLE_CACHE -Os -DMAX_SPI=24000000 -DVARIANT_QSPI_BAUD_DEFAULT=50000000 "-IC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/" "-IC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.2.0/CMSIS/Device/ATMEL/" "-IC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\samd\\1.4.1\\cores\\arduino" "-IC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\samd\\1.4.1\\variants\\itsybitsy_m4" "-IC:\\Users\\samsu\\Documents\\Arduino\\libraries\\Adafruit_SPIFlash" "-IC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\samd\\1.4.1\\libraries\\SPI" "-IC:\\Users\\samsu\\Documents\\Arduino\\libraries\\Adafruit_QSPI" "-IC:\\Users\\samsu\\Documents\\Arduino\\libraries\\Adafruit_DotStar" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\dict\\new_dict_entries.cpp" -o "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\dict\\new_dict_entries.cpp.o"
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\is_dl_word_number.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\interpreter.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\dict\iasmd.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\dict\cblink.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\dict\dict_comments_only.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\dict\max_min.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\is_word_number.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\dict\if_else_then.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\target_sensed.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\dict\constant.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\dict\colon_semi.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\leave_sys.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\dl_interpreter.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\download.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\dict\do_loop.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\variable.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\dict\store_fetch.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\dict\stack_ops.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\dict\xttoname.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\subroutine.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\throw.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\plus_loop_sys.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\remove.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\loop_sys.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\dot_quote.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\drop.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\type.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\quit.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\load.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\literal.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\over.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\signon.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\eq.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\execute_word.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\s_quote.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\entry.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\do_sys.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\periph\dotstar.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\zjump.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\jump.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\warm.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\strings.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\periph\neo_pixel.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\stacks.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\getline.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\sketch\src\kernel\exit.cpp.o
+"C:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++" -mcpu=cortex-m4 -mthumb -c -g -Os -w -std=gnu++11 -ffunction-sections -fdata-sections -fno-threadsafe-statics -nostdlib --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD "-D__SKETCH_NAME__=\"\"\"ainsuForth-gen-exp-m4.ino\"\"\"" -DF_CPU=120000000L -DARDUINO=10809 -DARDUINO_ITSYBITSY_M4 -DARDUINO_ARCH_SAMD -D__SAMD51G19A__ -DADAFRUIT_ITSYBITSY_M4_EXPRESS -D__SAMD51__ -DUSB_VID=0x239A -DUSB_PID=0x802B -DUSBCON "-DUSB_MANUFACTURER=\"Adafruit LLC\"" "-DUSB_PRODUCT=\"Adafruit ItsyBitsy M4\"" -D__FPU_PRESENT -DARM_MATH_CM4 -DCRYSTALLESS -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DENABLE_CACHE -Os -DMAX_SPI=24000000 -DVARIANT_QSPI_BAUD_DEFAULT=50000000 "-IC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/" "-IC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.2.0/CMSIS/Device/ATMEL/" "-IC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\samd\\1.4.1\\cores\\arduino" "-IC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\samd\\1.4.1\\variants\\itsybitsy_m4" "-IC:\\Users\\samsu\\Documents\\Arduino\\libraries\\Adafruit_SPIFlash" "-IC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\samd\\1.4.1\\libraries\\SPI" "-IC:\\Users\\samsu\\Documents\\Arduino\\libraries\\Adafruit_QSPI" "-IC:\\Users\\samsu\\Documents\\Arduino\\libraries\\Adafruit_DotStar" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\ainsuForth-gen-exp-m4.ino.cpp" -o "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\ainsuForth-gen-exp-m4.ino.cpp.o"
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\flashDict.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\ainsuForthsketch.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\dict\dict_comments_only.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\dict\begin_while_repeat.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\dict\allot.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\dict\do_loop.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\dict\cblink.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\dict\constant.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\dict\dump.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\dict\iasmd.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\dict\char.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\dict\colon_semi.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\jump.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\leave_sys.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\dict\max_min.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\dict\if_else_then.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\load.cpp.o
+"C:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++" -mcpu=cortex-m4 -mthumb -c -g -Os -w -std=gnu++11 -ffunction-sections -fdata-sections -fno-threadsafe-statics -nostdlib --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD "-D__SKETCH_NAME__=\"\"\"ainsuForth-gen-exp-m4.ino\"\"\"" -DF_CPU=120000000L -DARDUINO=10809 -DARDUINO_ITSYBITSY_M4 -DARDUINO_ARCH_SAMD -D__SAMD51G19A__ -DADAFRUIT_ITSYBITSY_M4_EXPRESS -D__SAMD51__ -DUSB_VID=0x239A -DUSB_PID=0x802B -DUSBCON "-DUSB_MANUFACTURER=\"Adafruit LLC\"" "-DUSB_PRODUCT=\"Adafruit ItsyBitsy M4\"" -D__FPU_PRESENT -DARM_MATH_CM4 -DCRYSTALLESS -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DENABLE_CACHE -Os -DMAX_SPI=24000000 -DVARIANT_QSPI_BAUD_DEFAULT=50000000 "-IC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0/CMSIS/Include/" "-IC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.2.0/CMSIS/Device/ATMEL/" "-IC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\samd\\1.4.1\\cores\\arduino" "-IC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\samd\\1.4.1\\variants\\itsybitsy_m4" "-IC:\\Users\\samsu\\Documents\\Arduino\\libraries\\Adafruit_SPIFlash" "-IC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\samd\\1.4.1\\libraries\\SPI" "-IC:\\Users\\samsu\\Documents\\Arduino\\libraries\\Adafruit_QSPI" "-IC:\\Users\\samsu\\Documents\\Arduino\\libraries\\Adafruit_DotStar" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\dict\\new_dict_entries.cpp" -o "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\dict\\new_dict_entries.cpp.o"
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\literal.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\over.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\remove.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\dict\stack_ops.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\dl_interpreter.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\s_quote.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\quit.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\signon.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\dict\store_fetch.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\plus_loop_sys.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\subroutine.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\target_sensed.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\do_sys.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\dict\xttoname.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\strings.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\throw.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\stacks.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\download.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\warm.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\zjump.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\variable.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\drop.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\periph\neo_pixel.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\periph\qspi\flashrom.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\eq.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\getline_m4_exp.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\entry.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\periph\dotstar.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\is_dl_word_number.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\gettoken.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\interpreter.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\getline_m0_exp.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\dict\help.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\loop_sys.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\dot_quote.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\getline.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\execute_word.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\dict\accept.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\is_word_number.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\type.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\sketch\src\kernel\exit.cpp.o
 Compiling libraries...
 Compiling library "Adafruit_SPIFlash"
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\libraries\Adafruit_SPIFlash\Adafruit_SPIFlash.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\libraries\Adafruit_SPIFlash\Adafruit_SPIFlash_FatFs.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\libraries\Adafruit_SPIFlash\utility\ccsbcs.c.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\libraries\Adafruit_SPIFlash\utility\ff.c.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\libraries\Adafruit_SPIFlash\utility\flashdisk.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\libraries\Adafruit_SPIFlash\Adafruit_SPIFlash_FatFs.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\libraries\Adafruit_SPIFlash\Adafruit_SPIFlash.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\libraries\Adafruit_SPIFlash\utility\ccsbcs.c.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\libraries\Adafruit_SPIFlash\utility\ff.c.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\libraries\Adafruit_SPIFlash\utility\flashdisk.cpp.o
 Compiling library "SPI"
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\libraries\SPI\SPI.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\libraries\SPI\SPI.cpp.o
 Compiling library "Adafruit_QSPI"
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\libraries\Adafruit_QSPI\Adafruit_QSPI_Generic.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\libraries\Adafruit_QSPI\Adafruit_QSPI_GD25Q.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\libraries\Adafruit_QSPI\Adafruit_QSPI.cpp.o
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\libraries\Adafruit_QSPI\Adafruit_QSPI_S25FL1.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\libraries\Adafruit_QSPI\Adafruit_QSPI.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\libraries\Adafruit_QSPI\Adafruit_QSPI_Generic.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\libraries\Adafruit_QSPI\Adafruit_QSPI_GD25Q.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\libraries\Adafruit_QSPI\Adafruit_QSPI_S25FL1.cpp.o
 Compiling library "Adafruit_DotStar"
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\libraries\Adafruit_DotStar\Adafruit_DotStar.cpp.o
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\libraries\Adafruit_DotStar\Adafruit_DotStar.cpp.o
 Compiling core...
-Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_684607\core\variant.cpp.o
-Using precompiled core: C:\Users\samsu\AppData\Local\Temp\arduino_cache_339528\core\core_02f97b69ad83e20fc58e413391494cff.a
+Using previously compiled file: C:\Users\samsu\AppData\Local\Temp\arduino_build_540011\core\variant.cpp.o
+Using precompiled core: C:\Users\samsu\AppData\Local\Temp\arduino_cache_643998\core\core_02f97b69ad83e20fc58e413391494cff.a
 Linking everything together...
-"C:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-gcc" "-LC:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607" -Os -Wl,--gc-sections -save-temps "-TC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\samd\\1.4.1\\variants\\itsybitsy_m4/linker_scripts/gcc/flash_with_bootloader.ld" "-Wl,-Map,C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607/ainsuForth-gen-exp-m4.ino.map" --specs=nano.specs --specs=nosys.specs -mcpu=cortex-m4 -mthumb -Wl,--cref -Wl,--check-sections -Wl,--gc-sections -Wl,--unresolved-symbols=report-all -Wl,--warn-common -Wl,--warn-section-align -o "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607/ainsuForth-gen-exp-m4.ino.elf" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\ainsuForth-gen-exp-m4.ino.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\ainsuForthsketch.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\flashDict.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\dict\\accept.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\dict\\allot.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\dict\\begin_while_repeat.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\dict\\cblink.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\dict\\char.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\dict\\colon_semi.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\dict\\constant.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\dict\\dict_comments_only.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\dict\\do_loop.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\dict\\dump.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\dict\\help.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\dict\\iasmd.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\dict\\if_else_then.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\dict\\max_min.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\dict\\new_dict_entries.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\dict\\stack_ops.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\dict\\store_fetch.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\dict\\xttoname.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\kernel\\dl_interpreter.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\kernel\\do_sys.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\kernel\\dot_quote.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\kernel\\download.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\kernel\\drop.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\kernel\\entry.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\kernel\\eq.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\kernel\\execute_word.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\kernel\\exit.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\kernel\\getline.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\kernel\\getline_m0_exp.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\kernel\\getline_m4_exp.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\kernel\\gettoken.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\kernel\\interpreter.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\kernel\\is_dl_word_number.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\kernel\\is_word_number.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\kernel\\jump.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\kernel\\leave_sys.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\kernel\\literal.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\kernel\\load.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\kernel\\loop_sys.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\kernel\\over.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\kernel\\plus_loop_sys.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\kernel\\quit.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\kernel\\remove.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\kernel\\s_quote.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\kernel\\signon.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\kernel\\stacks.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\kernel\\strings.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\kernel\\subroutine.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\kernel\\target_sensed.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\kernel\\throw.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\kernel\\type.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\kernel\\variable.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\kernel\\warm.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\kernel\\zjump.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\periph\\dotstar.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\periph\\neo_pixel.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\sketch\\src\\periph\\qspi\\flashrom.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\libraries\\Adafruit_SPIFlash\\Adafruit_SPIFlash.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\libraries\\Adafruit_SPIFlash\\Adafruit_SPIFlash_FatFs.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\libraries\\Adafruit_SPIFlash\\utility\\ccsbcs.c.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\libraries\\Adafruit_SPIFlash\\utility\\ff.c.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\libraries\\Adafruit_SPIFlash\\utility\\flashdisk.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\libraries\\SPI\\SPI.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\libraries\\Adafruit_QSPI\\Adafruit_QSPI.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\libraries\\Adafruit_QSPI\\Adafruit_QSPI_GD25Q.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\libraries\\Adafruit_QSPI\\Adafruit_QSPI_Generic.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\libraries\\Adafruit_QSPI\\Adafruit_QSPI_S25FL1.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\libraries\\Adafruit_DotStar\\Adafruit_DotStar.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607\\core\\variant.cpp.o" -Wl,--start-group "-LC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\samd\\1.4.1\\variants\\itsybitsy_m4" -larm_cortexM4lf_math -mfloat-abi=hard -mfpu=fpv4-sp-d16 "-LC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\samd\\1.4.1\\variants\\itsybitsy_m4" -lm "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607/..\\arduino_cache_339528\\core\\core_02f97b69ad83e20fc58e413391494cff.a" -Wl,--end-group
-"C:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-objcopy" -O binary "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607/ainsuForth-gen-exp-m4.ino.elf" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607/ainsuForth-gen-exp-m4.ino.bin"
+"C:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-gcc" "-LC:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011" -Os -Wl,--gc-sections -save-temps "-TC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\samd\\1.4.1\\variants\\itsybitsy_m4/linker_scripts/gcc/flash_with_bootloader.ld" "-Wl,-Map,C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011/ainsuForth-gen-exp-m4.ino.map" --specs=nano.specs --specs=nosys.specs -mcpu=cortex-m4 -mthumb -Wl,--cref -Wl,--check-sections -Wl,--gc-sections -Wl,--unresolved-symbols=report-all -Wl,--warn-common -Wl,--warn-section-align -o "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011/ainsuForth-gen-exp-m4.ino.elf" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\ainsuForth-gen-exp-m4.ino.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\ainsuForthsketch.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\flashDict.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\dict\\accept.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\dict\\allot.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\dict\\begin_while_repeat.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\dict\\cblink.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\dict\\char.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\dict\\colon_semi.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\dict\\constant.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\dict\\dict_comments_only.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\dict\\do_loop.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\dict\\dump.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\dict\\help.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\dict\\iasmd.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\dict\\if_else_then.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\dict\\max_min.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\dict\\new_dict_entries.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\dict\\stack_ops.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\dict\\store_fetch.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\dict\\xttoname.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\kernel\\dl_interpreter.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\kernel\\do_sys.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\kernel\\dot_quote.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\kernel\\download.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\kernel\\drop.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\kernel\\entry.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\kernel\\eq.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\kernel\\execute_word.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\kernel\\exit.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\kernel\\getline.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\kernel\\getline_m0_exp.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\kernel\\getline_m4_exp.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\kernel\\gettoken.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\kernel\\interpreter.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\kernel\\is_dl_word_number.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\kernel\\is_word_number.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\kernel\\jump.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\kernel\\leave_sys.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\kernel\\literal.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\kernel\\load.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\kernel\\loop_sys.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\kernel\\over.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\kernel\\plus_loop_sys.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\kernel\\quit.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\kernel\\remove.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\kernel\\s_quote.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\kernel\\signon.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\kernel\\stacks.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\kernel\\strings.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\kernel\\subroutine.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\kernel\\target_sensed.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\kernel\\throw.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\kernel\\type.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\kernel\\variable.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\kernel\\warm.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\kernel\\zjump.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\periph\\dotstar.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\periph\\neo_pixel.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\sketch\\src\\periph\\qspi\\flashrom.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\libraries\\Adafruit_SPIFlash\\Adafruit_SPIFlash.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\libraries\\Adafruit_SPIFlash\\Adafruit_SPIFlash_FatFs.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\libraries\\Adafruit_SPIFlash\\utility\\ccsbcs.c.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\libraries\\Adafruit_SPIFlash\\utility\\ff.c.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\libraries\\Adafruit_SPIFlash\\utility\\flashdisk.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\libraries\\SPI\\SPI.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\libraries\\Adafruit_QSPI\\Adafruit_QSPI.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\libraries\\Adafruit_QSPI\\Adafruit_QSPI_GD25Q.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\libraries\\Adafruit_QSPI\\Adafruit_QSPI_Generic.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\libraries\\Adafruit_QSPI\\Adafruit_QSPI_S25FL1.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\libraries\\Adafruit_DotStar\\Adafruit_DotStar.cpp.o" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011\\core\\variant.cpp.o" -Wl,--start-group "-LC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\samd\\1.4.1\\variants\\itsybitsy_m4" -larm_cortexM4lf_math -mfloat-abi=hard -mfpu=fpv4-sp-d16 "-LC:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\samd\\1.4.1\\variants\\itsybitsy_m4" -lm "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011/..\\arduino_cache_643998\\core\\core_02f97b69ad83e20fc58e413391494cff.a" -Wl,--end-group
+"C:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-objcopy" -O binary "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011/ainsuForth-gen-exp-m4.ino.elf" "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011/ainsuForth-gen-exp-m4.ino.bin"
 Using library Adafruit_SPIFlash at version 1.2.0 in folder: C:\Users\samsu\Documents\Arduino\libraries\Adafruit_SPIFlash 
 Using library SPI at version 1.0 in folder: C:\Users\samsu\AppData\Local\Arduino15\packages\adafruit\hardware\samd\1.4.1\libraries\SPI 
 Using library Adafruit_QSPI at version 2.0.0 in folder: C:\Users\samsu\Documents\Arduino\libraries\Adafruit_QSPI 
 Using library Adafruit_DotStar at version 1.1.1 in folder: C:\Users\samsu\Documents\Arduino\libraries\Adafruit_DotStar 
-"C:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-size" -A "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_684607/ainsuForth-gen-exp-m4.ino.elf"
-Sketch uses 50400 bytes (9%) of program storage space. Maximum is 507904 bytes.
+"C:\\Users\\samsu\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-size" -A "C:\\Users\\samsu\\AppData\\Local\\Temp\\arduino_build_540011/ainsuForth-gen-exp-m4.ino.elf"
+Sketch uses 50728 bytes (9%) of program storage space. Maximum is 507904 bytes.
 Device       : ATSAMD51x19
 Version      : v1.1 [Arduino:XYZ] Apr  6 2019 10:10:42
 Address      : 0x0
@@ -178,7 +178,7 @@ Locked       : none
 Security     : false
 BOD          : false
 BOR          : true
-Write 50768 bytes to flash (100 pages)
+Write 51096 bytes to flash (100 pages)
 
 [                              ] 0% (0/100 pages)
 [==                            ] 8% (8/100 pages)
@@ -194,8 +194,8 @@ Write 50768 bytes to flash (100 pages)
 [==========================    ] 88% (88/100 pages)
 [============================  ] 96% (96/100 pages)
 [==============================] 100% (100/100 pages)
-Done in 0.608 seconds
-Verify 50768 bytes of flash
+Done in 0.606 seconds
+Verify 51096 bytes of flash
 
 [=                             ] 4% (4/100 pages)
 [=                             ] 5% (5/100 pages)
@@ -295,4 +295,479 @@ Verify 50768 bytes of flash
 [============================= ] 99% (99/100 pages)
 [==============================] 100% (100/100 pages)
 Verify successful
-Done in 0.296 seconds
+Done in 0.283 seconds
+
+Went off tail.  Bye from dotstar.
+Hello from setup_qspi m4 getline stuff.   Found QSPI Flash.
+NOV 2018: Mounted filesystem!
+SPI_FlashROM_FILENAME: /forth/ascii_xfer_a001.txt
+
+ warm boot message - early bird.               c: 8c8141d2866
+ SIWNA +trm4x +fm4x +crickitCPX  c4e DEVPR - gen-exp-m4  04 Nov 2018
+          type 'warm' to reboot
+ Sun Nov 4 02:32:24 2018       testing-gg-      
+ 4737-a3c-00d- Trellis M4 Express sand birds[33m[44m[40m
+
+   [44m  ainsuForth - 2018 - wa1tnr  [40m  words: 105  
+         YAFFA - Yet Another Forth For Arduino, 
+         Copyright (C) 2012 Stuart Wood
+: O \ ( pin -- ) set pinMode as OUTPUT
+  1 swap pinMode ; : I \ ( pin -- ) set pinMode as INPUT
+  2 swap pinMode ; : H \ ( pin -- ) set pinLevel as HIGH
+  1 swap pinWrite ; : L \ ( pin -- ) set pinLevel as LOW
+  0 swap pinWrite ;
+ ok
+: T \ ( pin -- ) set pinLevel as toggle
+  1 over pinRead - swap pinWrite ; : X \ ( n -- ) toggle led n times
+  13 O 0 do 13 T 500 delay loop ;
+ ok
+: t \ ( -- ) show 9 * 9 table
+  10 1 do cr 10 1 do i j * dup 10 < if space then loop loop ;
+ ok
+: y \ ( n -- ) check if n is zero
+  if ." non-zero" else ." zero" then ; : z \ ( n -- ) check if n is zero
+  if ." non-" then ." zero" ;
+ ok
+: countRomWords ( -- n )
+   1
+  begin 1 + dup romEntry @ 0 =
+  until 1 - ;
+ ok
+: romWords \ ( -- ) show all words defined in rom
+  countRomWords
+  begin dup while dup .name space 1 -
+  repeat drop ;
+ ok
+: >link ( ramWordEntry -- lfa ) ; : >cfa ( ramWordEntry -- cfa ) 4 + @ ; : countRamWords ( -- n )
+  0 ramLast
+  begin dup
+  while swap 1 + swap >link @
+  repeat drop ;
+ ok
+: ramWords \ ( -- ) show all words defined in ram
+  ramLast
+  begin dup
+  while dup >cfa .name space >link @
+  repeat drop ;
+ ok
+: words \ ( -- ) show all words defined in ram and rom
+  cr ramWords romWords ;
+ ok
+: seeRamWords \ ( -- ) see all words in ram
+  countRomWords countRamWords +
+  ramLast
+  begin dup
+  while swap dup . 1 - swap dup >cfa (see) >link @
+  repeat 2drop ;
+ ok
+: seeRomWords \ ( -- ) see all words in rom
+  countRomWords
+  begin dup while dup . dup (see) 1 -
+  repeat drop ;
+ ok
+: seeAll \ ( -- ) see all words
+  seeRamWords seeRomWords ;
+ ok
+words 
+seeAll seeRomWords seeRamWords words ramWords countRamWords >cfa >link romWords countRomWords z y t X T L H I O download remove echo! load eflmkdir pinRead pinMode pinWrite delay .name ' ramLast romEntry words see (see) dump .s who help hex .( ( [char] xor \ word u. swap spaces space source rot r@ r> quit or negate min max loop here fill emit dup do decimal cr count repeat while until again begin then else if < j i strlen constant char c@ c, c! and allot accept abs @ >r ; : 2drop 2@ 2! / , +! ! 0= * + - . warm drop = over variable ." s" evaluate plus_loop-sys leave-sys loop-sys do-sys throw subroutine zjump jump type literal exit  ok
+seeAll 124 
+HighLevel Colon Word seeAll (ramCFA 20000728)
+20000728 20000668 seeRamWords
+2000072C 200006DC seeRomWords
+20000730 00000001 exit
+123 
+HighLevel Colon Word seeRomWords (ramCFA 200006DC)
+200006DC 200004C0 countRomWords
+200006E0 0000003D dup
+200006E4 00000005 zjump(20000710)
+200006EC 0000003D dup
+200006F0 00000014 .
+200006F4 0000003D dup
+200006F8 0000005A (see)
+200006FC 00000002 literal(00000001)
+20000704 00000015 -
+20000708 00000004 jump(200006E0)
+20000710 00000012 drop
+20000714 00000001 exit
+122 
+HighLevel Colon Word seeRamWords (ramCFA 20000668)
+20000668 200004C0 countRomWords
+2000066C 200005A0 countRamWords
+20000670 00000016 +
+20000674 0000005E ramLast
+20000678 0000003D dup
+2000067C 00000005 zjump(200006BC)
+20000684 0000004D swap
+20000688 0000003D dup
+2000068C 00000014 .
+20000690 00000002 literal(00000001)
+20000698 00000015 -
+2000069C 0000004D swap
+200006A0 0000003D dup
+200006A4 20000574 >cfa
+200006A8 0000005A (see)
+200006AC 20000560 >link
+200006B0 00000023 @
+200006B4 00000004 jump(20000678)
+200006BC 0000001F 2drop
+200006C0 00000001 exit
+121 
+HighLevel Colon Word words (ramCFA 20000640)
+20000640 0000003A cr
+20000644 200005F8 ramWords
+20000648 20000518 romWords
+2000064C 00000001 exit
+120 
+HighLevel Colon Word ramWords (ramCFA 200005F8)
+200005F8 0000005E ramLast
+200005FC 0000003D dup
+20000600 00000005 zjump(20000628)
+20000608 0000003D dup
+2000060C 20000574 >cfa
+20000610 00000060 .name
+20000614 0000004B space
+20000618 20000560 >link
+2000061C 00000023 @
+20000620 00000004 jump(200005FC)
+20000628 00000012 drop
+2000062C 00000001 exit
+119 
+HighLevel Colon Word countRamWords (ramCFA 200005A0)
+200005A0 00000002 literal(00000000)
+200005A8 0000005E ramLast
+200005AC 0000003D dup
+200005B0 00000005 zjump(200005DC)
+200005B8 0000004D swap
+200005BC 00000002 literal(00000001)
+200005C4 00000016 +
+200005C8 0000004D swap
+200005CC 20000560 >link
+200005D0 00000023 @
+200005D4 00000004 jump(200005AC)
+200005DC 00000012 drop
+200005E0 00000001 exit
+118 
+HighLevel Colon Word >cfa (ramCFA 20000574)
+20000574 00000002 literal(00000004)
+2000057C 00000016 +
+20000580 00000023 @
+20000584 00000001 exit
+117 
+HighLevel Colon Word >link (ramCFA 20000560)
+20000560 00000001 exit
+116 
+HighLevel Colon Word romWords (ramCFA 20000518)
+20000518 200004C0 countRomWords
+2000051C 0000003D dup
+20000520 00000005 zjump(20000548)
+20000528 0000003D dup
+2000052C 00000060 .name
+20000530 0000004B space
+20000534 00000002 literal(00000001)
+2000053C 00000015 -
+20000540 00000004 jump(2000051C)
+20000548 00000012 drop
+2000054C 00000001 exit
+115 
+HighLevel Colon Word countRomWords (ramCFA 200004C0)
+200004C0 00000002 literal(00000001)
+200004C8 00000002 literal(00000001)
+200004D0 00000016 +
+200004D4 0000003D dup
+200004D8 0000005D romEntry
+200004DC 00000023 @
+200004E0 00000002 literal(00000000)
+200004E8 00000011 =
+200004EC 00000005 zjump(200004C8)
+200004F4 00000002 literal(00000001)
+200004FC 00000015 -
+20000500 00000001 exit
+114 
+HighLevel Colon Word z (ramCFA 20000484)
+20000484 00000005 zjump(20000498)
+2000048C 0000000E ." non-"
+20000498 0000000E ." zero"
+200004A4 00000001 exit
+113 
+HighLevel Colon Word y (ramCFA 20000448)
+20000448 00000005 zjump(20000468)
+20000450 0000000E ." non-zero"
+20000460 00000004 jump(20000474)
+20000468 0000000E ." zero"
+20000474 00000001 exit
+112 
+HighLevel Colon Word t (ramCFA 200003D4)
+200003D4 00000002 literal(0000000A)
+200003DC 00000002 literal(00000001)
+200003E4 00000008 do-sys
+200003E8 0000003A cr
+200003EC 00000002 literal(0000000A)
+200003F4 00000002 literal(00000001)
+200003FC 00000008 do-sys
+20000400 0000002E i
+20000404 0000002F j
+20000408 00000017 *
+2000040C 0000003D dup
+20000410 00000002 literal(0000000A)
+20000418 00000030 <
+2000041C 00000005 zjump(20000428)
+20000424 0000004B space
+20000428 00000009 loop-sys(20000400)
+20000430 00000009 loop-sys(200003E8)
+20000438 00000001 exit
+111 
+HighLevel Colon Word X (ramCFA 2000038C)
+2000038C 00000002 literal(0000000D)
+20000394 200002E0 O
+20000398 00000002 literal(00000000)
+200003A0 00000008 do-sys
+200003A4 00000002 literal(0000000D)
+200003AC 20000360 T
+200003B0 00000002 literal(000001F4)
+200003B8 00000061 delay
+200003BC 00000009 loop-sys(200003A4)
+200003C4 00000001 exit
+110 
+HighLevel Colon Word T (ramCFA 20000360)
+20000360 00000002 literal(00000001)
+20000368 00000010 over
+2000036C 00000064 pinRead
+20000370 00000015 -
+20000374 0000004D swap
+20000378 00000062 pinWrite
+2000037C 00000001 exit
+109 
+HighLevel Colon Word L (ramCFA 20000340)
+20000340 00000002 literal(00000000)
+20000348 0000004D swap
+2000034C 00000062 pinWrite
+20000350 00000001 exit
+108 
+HighLevel Colon Word H (ramCFA 20000320)
+20000320 00000002 literal(00000001)
+20000328 0000004D swap
+2000032C 00000062 pinWrite
+20000330 00000001 exit
+107 
+HighLevel Colon Word I (ramCFA 20000300)
+20000300 00000002 literal(00000002)
+20000308 0000004D swap
+2000030C 00000063 pinMode
+20000310 00000001 exit
+106 
+HighLevel Colon Word O (ramCFA 200002E0)
+200002E0 00000002 literal(00000001)
+200002E8 0000004D swap
+200002EC 00000063 pinMode
+200002F0 00000001 exit
+105 
+LowLevel Primitive Word download (romEntry ecc4)
+104 
+LowLevel Primitive Word remove (romEntry ecb8)
+103 
+LowLevel Primitive Word echo! (romEntry ecac)
+102 
+LowLevel Primitive Word load (romEntry eca0)
+101 
+LowLevel Primitive Word eflmkdir (romEntry ec94)
+100 
+LowLevel Primitive Word pinRead (romEntry ec88)
+99 
+LowLevel Primitive Word pinMode (romEntry ec7c)
+98 
+LowLevel Primitive Word pinWrite (romEntry ec70)
+97 
+LowLevel Primitive Word delay (romEntry ec64)
+96 
+LowLevel Primitive Word .name (romEntry ec58)
+95 
+LowLevel Primitive Word ' (romEntry ec4c)
+94 
+LowLevel Primitive Word ramLast (romEntry ec40)
+93 
+LowLevel Primitive Word romEntry (romEntry ec34)
+92 
+LowLevel Primitive Word words (romEntry ec28)
+91 
+LowLevel Primitive Word see (romEntry ec1c)
+90 
+LowLevel Primitive Word (see) (romEntry ec10)
+89 
+LowLevel Primitive Word dump (romEntry ec04)
+88 
+LowLevel Primitive Word .s (romEntry ebf8)
+87 
+LowLevel Primitive Word who (romEntry ebec)
+86 
+LowLevel Primitive Word help (romEntry ebe0)
+85 
+LowLevel Primitive Word hex (romEntry ebd4)
+84 
+LowLevel Primitive Word .( (romEntry ebc8)
+83 
+LowLevel Primitive Word ( (romEntry ebbc)
+82 
+LowLevel Primitive Word [char] (romEntry ebb0)
+81 
+LowLevel Primitive Word xor (romEntry eba4)
+80 
+LowLevel Primitive Word \ (romEntry eb98)
+79 
+LowLevel Primitive Word word (romEntry eb8c)
+78 
+LowLevel Primitive Word u. (romEntry eb80)
+77 
+LowLevel Primitive Word swap (romEntry eb74)
+76 
+LowLevel Primitive Word spaces (romEntry eb68)
+75 
+LowLevel Primitive Word space (romEntry eb5c)
+74 
+LowLevel Primitive Word source (romEntry eb50)
+73 
+LowLevel Primitive Word rot (romEntry eb44)
+72 
+LowLevel Primitive Word r@ (romEntry eb38)
+71 
+LowLevel Primitive Word r> (romEntry eb2c)
+70 
+LowLevel Primitive Word quit (romEntry eb20)
+69 
+LowLevel Primitive Word or (romEntry eb14)
+68 
+LowLevel Primitive Word negate (romEntry eb08)
+67 
+LowLevel Primitive Word min (romEntry eafc)
+66 
+LowLevel Primitive Word max (romEntry eaf0)
+65 
+LowLevel Primitive Word loop (romEntry eae4)
+64 
+LowLevel Primitive Word here (romEntry ead8)
+63 
+LowLevel Primitive Word fill (romEntry eacc)
+62 
+LowLevel Primitive Word emit (romEntry eac0)
+61 
+LowLevel Primitive Word dup (romEntry eab4)
+60 
+LowLevel Primitive Word do (romEntry eaa8)
+59 
+LowLevel Primitive Word decimal (romEntry ea9c)
+58 
+LowLevel Primitive Word cr (romEntry ea90)
+57 
+LowLevel Primitive Word count (romEntry ea84)
+56 
+LowLevel Primitive Word repeat (romEntry ea78)
+55 
+LowLevel Primitive Word while (romEntry ea6c)
+54 
+LowLevel Primitive Word until (romEntry ea60)
+53 
+LowLevel Primitive Word again (romEntry ea54)
+52 
+LowLevel Primitive Word begin (romEntry ea48)
+51 
+LowLevel Primitive Word then (romEntry ea3c)
+50 
+LowLevel Primitive Word else (romEntry ea30)
+49 
+LowLevel Primitive Word if (romEntry ea24)
+48 
+LowLevel Primitive Word < (romEntry ea18)
+47 
+LowLevel Primitive Word j (romEntry ea0c)
+46 
+LowLevel Primitive Word i (romEntry ea00)
+45 
+LowLevel Primitive Word strlen (romEntry e9f4)
+44 
+LowLevel Primitive Word constant (romEntry e9e8)
+43 
+LowLevel Primitive Word char (romEntry e9dc)
+42 
+LowLevel Primitive Word c@ (romEntry e9d0)
+41 
+LowLevel Primitive Word c, (romEntry e9c4)
+40 
+LowLevel Primitive Word c! (romEntry e9b8)
+39 
+LowLevel Primitive Word and (romEntry e9ac)
+38 
+LowLevel Primitive Word allot (romEntry e9a0)
+37 
+LowLevel Primitive Word accept (romEntry e994)
+36 
+LowLevel Primitive Word abs (romEntry e988)
+35 
+LowLevel Primitive Word @ (romEntry e97c)
+34 
+LowLevel Primitive Word >r (romEntry e970)
+33 
+LowLevel Primitive Word ; (romEntry e964)
+32 
+LowLevel Primitive Word : (romEntry e958)
+31 
+LowLevel Primitive Word 2drop (romEntry e94c)
+30 
+LowLevel Primitive Word 2@ (romEntry e940)
+29 
+LowLevel Primitive Word 2! (romEntry e934)
+28 
+LowLevel Primitive Word / (romEntry e928)
+27 
+LowLevel Primitive Word , (romEntry e91c)
+26 
+LowLevel Primitive Word +! (romEntry e910)
+25 
+LowLevel Primitive Word ! (romEntry e904)
+24 
+LowLevel Primitive Word 0= (romEntry e8f8)
+23 
+LowLevel Primitive Word * (romEntry e8ec)
+22 
+LowLevel Primitive Word + (romEntry e8e0)
+21 
+LowLevel Primitive Word - (romEntry e8d4)
+20 
+LowLevel Primitive Word . (romEntry e8c8)
+19 
+LowLevel Primitive Word warm (romEntry e8bc)
+18 
+LowLevel Primitive Word drop (romEntry e8b0)
+17 
+LowLevel Primitive Word = (romEntry e8a4)
+16 
+LowLevel Primitive Word over (romEntry e898)
+15 
+LowLevel Primitive Word variable (romEntry e88c)
+14 
+LowLevel Primitive Word ." (romEntry e880)
+13 
+LowLevel Primitive Word s" (romEntry e874)
+12 
+LowLevel Primitive Word evaluate (romEntry e868)
+11 
+LowLevel Primitive Word plus_loop-sys (romEntry e85c)
+10 
+LowLevel Primitive Word leave-sys (romEntry e850)
+9 
+LowLevel Primitive Word loop-sys (romEntry e844)
+8 
+LowLevel Primitive Word do-sys (romEntry e838)
+7 
+LowLevel Primitive Word throw (romEntry e82c)
+6 
+LowLevel Primitive Word subroutine (romEntry e820)
+5 
+LowLevel Primitive Word zjump (romEntry e814)
+4 
+LowLevel Primitive Word jump (romEntry e808)
+3 
+LowLevel Primitive Word type (romEntry e7fc)
+2 
+LowLevel Primitive Word literal (romEntry e7f0)
+1 
+LowLevel Primitive Word exit (romEntry e7e4)
+ ok

@@ -56,6 +56,9 @@ extern void _back_slash();
 extern const char source_str[]; // = "source"; // ( -- c-addr u )
 extern void _source(void);
 
+extern const char psee_str[]; // = "(see)";
+extern void _psee(void);
+
 extern const char see_str[]; // = "see";
 extern void _see(void);
 

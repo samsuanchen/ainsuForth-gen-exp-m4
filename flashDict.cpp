@@ -104,10 +104,12 @@ const flashEntry_t flashDict[] = {
   { evaluate_str,       _evaluate,        NORMAL },
   { s_quote_str,        _s_quote,         IMMEDIATE + COMP_ONLY },
   { dot_quote_str,      _dot_quote,       IMMEDIATE + COMP_ONLY },
-  { variable_str,       _variable,        NORMAL },
+  { var_sys_str,        _var_sys,         NORMAL }, // samsuanchen@gmail.com 20190508
   { over_str,           _over,            NORMAL }, // CAL
   { eq_str,             _eq,              NORMAL }, // CAL
   { drop_str,           _drop,            NORMAL }, // CAL
+  { con_sys_str,        _con_sys,         NORMAL }, // samsuanchen@gmail.com 20190508
+  { variable_str,       _variable,        NORMAL }, // moved to here samsuanchen@gmail.com 20190508
 
   /*****************************************************/
   /* Order does not matter after here                  */
@@ -127,8 +129,8 @@ const flashEntry_t flashDict[] = {
 //   { number_sign_str,    _number_sign,     NORMAL },
 //   { number_sign_gt_str, _number_sign_gt,  NORMAL },
 //   { number_sign_s_str,  _number_sign_s,   NORMAL },
-//   { tick_str,           _tick,            NORMAL },
-//   { paren_str,          _paren,           IMMEDIATE },
+  {           tick_str, _tick,            NORMAL }, // added samsuanchen@gmail.com 20190502
+  { paren_str,      _paren,       IMMEDIATE }, // samsuanchen@gmail.com 20190503
 //   { star_slash_str,     _star_slash,      NORMAL },
 //   { star_slash_mod_str, _star_slash_mod,  NORMAL },
   { plus_store_str,     _plus_store,      NORMAL },
@@ -169,7 +171,7 @@ const flashEntry_t flashDict[] = {
   { allot_str,          _allot,           NORMAL },
   { and_str,            _and,             NORMAL },
 //   { base_str,           _base,            NORMAL },
-//   { begin_str,          _begin,           IMMEDIATE + COMP_ONLY },
+  { begin_str,         _begin,        IMMEDIATE + COMP_ONLY }, // added samsuanchen@gmail.com 20190502
 //   { bl_str,             _bl,              NORMAL },
   { c_store_str,        _c_store,         NORMAL },
   { c_comma_str,        _c_comma,         NORMAL },
@@ -182,17 +184,8 @@ const flashEntry_t flashDict[] = {
 //   { chars_str,          _chars,           NORMAL },
   { constant_str,       _constant,        NORMAL },
   { strlen_str,           _strlen,        NORMAL }, // added samsuanchen@gmail.com 20190502
-  { i_str,           _i,        NORMAL }, // added samsuanchen@gmail.com 20190502
-  { j_str,           _j,        NORMAL }, // added samsuanchen@gmail.com 20190502
   { lt_str,         _lt,        NORMAL }, // added samsuanchen@gmail.com 20190502
-  { if_str,         _if,        IMMEDIATE + COMP_ONLY }, // added samsuanchen@gmail.com 20190502
-  { else_str,         _else,        IMMEDIATE + COMP_ONLY }, // added samsuanchen@gmail.com 20190502
-  { then_str,         _then,        IMMEDIATE + COMP_ONLY }, // added samsuanchen@gmail.com 20190502
-  { begin_str,         _begin,        IMMEDIATE + COMP_ONLY }, // added samsuanchen@gmail.com 20190502
   { again_str,         _again,        IMMEDIATE + COMP_ONLY }, // added samsuanchen@gmail.com 20190502
-  { until_str,         _until,        IMMEDIATE + COMP_ONLY }, // added samsuanchen@gmail.com 20190502
-  { while_str,         _while,        IMMEDIATE + COMP_ONLY }, // added samsuanchen@gmail.com 20190502
-  { repeat_str,         _repeat,        IMMEDIATE + COMP_ONLY }, // added samsuanchen@gmail.com 20190502
   { count_str,          _count,           NORMAL }, // updated samsuanchen@gmail.com 20190502
   { cr_str,             _cr,              NORMAL },
 //   { create_str,         _create,          NORMAL },
@@ -202,7 +195,7 @@ const flashEntry_t flashDict[] = {
 //   { does_str,           _does,            IMMEDIATE + COMP_ONLY },
 //   { drop_str,           _drop,            NORMAL },
   { dupe_str,           _dupe,            NORMAL },
-//   { else_str,           _else,            IMMEDIATE + COMP_ONLY },
+  { else_str,         _else,        IMMEDIATE + COMP_ONLY }, // added samsuanchen@gmail.com 20190502
   { emit_str,           _emit,            NORMAL },
 //   { environment_str,    _environment,     NORMAL },
 //   { execute_str,        _execute,         NORMAL },
@@ -211,11 +204,11 @@ const flashEntry_t flashDict[] = {
 //   { fm_slash_mod_str,   _fm_slash_mod,    NORMAL },
   { here_str,           _here,            NORMAL },
 //   { hold_str,           _hold,            NORMAL },
-//   { i_str,              _i,               NORMAL },
-//   { if_str,             _if,              IMMEDIATE + COMP_ONLY },
+  { i_str,           _i,        NORMAL }, // added samsuanchen@gmail.com 20190502
+  { if_str,         _if,        IMMEDIATE + COMP_ONLY }, // added samsuanchen@gmail.com 20190502
 //   { immediate_str,      _immediate,       NORMAL },
 //   { invert_str,         _invert,          NORMAL },
-//   { j_str,              _j,               NORMAL },
+  { j_str,           _j,        NORMAL }, // added samsuanchen@gmail.com 20190502
 //   { key_str,            _key,             NORMAL },
 //   { leave_str,          _leave,           IMMEDIATE + COMP_ONLY },
   { loop_str,           _loop,            IMMEDIATE + COMP_ONLY },
@@ -232,7 +225,7 @@ const flashEntry_t flashDict[] = {
   { r_from_str,         _r_from,          NORMAL },
   { r_fetch_str,        _r_fetch,         NORMAL },
 //   { recurse_str,        _recurse,         IMMEDIATE + COMP_ONLY },
-//   { repeat_str,         _repeat,          IMMEDIATE + COMP_ONLY },
+  { repeat_str,         _repeat,        IMMEDIATE + COMP_ONLY }, // added samsuanchen@gmail.com 20190502
   { rot_str,            _rot,             NORMAL },
 //   { rshift_str,         _rshift,          NORMAL },
 //   { s_to_d_str,         _s_to_d,          NORMAL },
@@ -243,14 +236,14 @@ const flashEntry_t flashDict[] = {
   { spaces_str,         _spaces,          NORMAL },
 //   { state_str,          _state,           NORMAL },
   { swap_str,           _swap,            NORMAL },
-//   { then_str,           _then,            IMMEDIATE + COMP_ONLY },
+  { then_str,         _then,        IMMEDIATE + COMP_ONLY }, // added samsuanchen@gmail.com 20190502
   { u_dot_str,          _u_dot,           NORMAL },
 //   { u_lt_str,           _u_lt,            NORMAL },
 //   { um_star_str,        _um_star,         NORMAL },
 //   { um_slash_mod_str,   _um_slash_mod,    NORMAL },
 //   { unloop_str,         _unloop,          NORMAL + COMP_ONLY },
-//   { until_str,          _until,           IMMEDIATE + COMP_ONLY },
-//   { while_str,          _while,           IMMEDIATE + COMP_ONLY },
+  { until_str,         _until,        IMMEDIATE + COMP_ONLY }, // added samsuanchen@gmail.com 20190502
+  { while_str,         _while,        IMMEDIATE + COMP_ONLY }, // added samsuanchen@gmail.com 20190502
   { word_str,           _word,            NORMAL },
   { back_slash_str, _back_slash,       IMMEDIATE }, // added samsuanchen@gmail.com 20190503
   { xor_str,            _xor,             NORMAL },
@@ -260,7 +253,6 @@ const flashEntry_t flashDict[] = {
 //   { right_bracket_str,  _right_bracket,   NORMAL },
 
 #ifdef CORE_EXT_SET
-  { paren_str,      _paren,       IMMEDIATE }, // samsuanchen@gmail.com 20190503
   { dot_paren_str,      _dot_paren,       IMMEDIATE },
 //   { zero_not_equal_str, _zero_not_equal,  NORMAL },
 //   { zero_greater_str,   _zero_greater,    NORMAL },
@@ -301,7 +293,6 @@ const flashEntry_t flashDict[] = {
   { words_str,          _words,           NORMAL },
   { romEntry_str,       _romEntry,        NORMAL }, // added samsuanchen@gmail.com 20190503
   {        ramLast_str, _ramLast,         NORMAL }, // added samsuanchen@gmail.com 20190503
-  {           tick_str, _tick,            NORMAL }, // added samsuanchen@gmail.com 20190502
   {       dot_name_str, _dot_name,        NORMAL }, // added samsuanchen@gmail.com 20190503
   
 #endif

@@ -356,6 +356,7 @@ typedef struct {
 #define OVER_IDX           16
 #define EQUAL_IDX          17
 #define DROP_IDX           18
+#define CONST_IDX          19
 
 #endif
 

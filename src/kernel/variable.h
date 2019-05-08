@@ -2,6 +2,8 @@
 // 4735-a0f
 
 // prototypes - this word
+extern const char var_sys_str[]; // = "variable";
+extern void _var_sys(void);
 extern const char variable_str[]; // = "variable";
 extern void _variable(void);
 
@@ -12,5 +14,6 @@ extern uint8_t flags;                 // Internal Flags
 
 // prototypes - external functions
 extern void dStack_push(cell_t value);
+extern void _exit(void);
 extern void openEntry(void);
 extern void closeEntry(void);

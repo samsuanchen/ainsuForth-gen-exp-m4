@@ -1,5 +1,12 @@
 \ samsuanchen@gmail.com 2019/5/6 10:30
 
+: 1- 1 - ;
+: 1+ 1 + ;
+: cell+ 4 + ;
+: cell- 4 - ;
+: nip swap drop ;
+: 2dup over over ;
+
 : O \ ( pin -- ) set pinMode as OUTPUT
   1 swap pinMode ;
 : I \ ( pin -- ) set pinMode as INPUT
@@ -9,41 +16,53 @@
 : L \ ( pin -- ) set pinLevel as LOW
   0 swap pinWrite ;
 
-: T \ ( pin -- ) set pinLevel as toggle
+: T \ ( pin -- ) toggle pinLevel 
   1 over pinRead - swap pinWrite ;
-: X \ ( n -- ) toggle led n times
-  13 O 0 do 13 T 500 delay loop ;
+: X \ ( pin n -- ) toggle pinLevel times
+  over O 0 do dup T 500 delay loop drop ;
 
 : t \ ( -- ) show 9 * 9 table
-  10 1 do cr 10 1 do i j * dup 10 < if space then loop loop ;
+  10 1 do cr 10 1 do i j * dup 10 < if space then . loop loop ;
  
 : y \ ( n -- ) check if n is zero
   if ." non-zero" else ." zero" then ;
 : z \ ( n -- ) check if n is zero
   if ." non-" then ." zero" ;
 
-: countRomWords ( -- n ) 
-  1
-  begin 1 + dup romEntry @ 0 =
-  until 1 - ;
+: countRomWords ( -- n ) 1
+  begin 1+ dup romEntry @ 0=
+  until 1- ;
   
 : romWords \ ( -- ) show all words defined in rom
   countRomWords
-  begin dup while dup .name space 1 -
+  begin dup
+  while dup .name space 1-
   repeat drop ;
 
-: >link ( ramWordEntry -- lfa ) ;
-: >cfa ( ramWordEntry -- cfa ) 4 + @ ;
-: countRamWords ( -- n )
-  0 ramLast
+: >flag ( cfa -- flag ) dup cell-
+  begin cell- 2dup @ =
+  until cell+ c@ nip ;
+: >name ( cfa -- nameAdr ) >flag 1+ ;
+: print ( zStr -- )
+  begin dup c@ dup
+  while emit 1+
+  repeat 2drop ;
+: .name ( cfa -- ) >name print ;
+: .id ( nfa -- ) 1+ print ;
+: immediate? ( flag -- ) $80 and ;
+: compile-only? ( flag -- ) $40 and ;
+
+: entry>link ( ramWordEntry -- lfa ) ;
+: entry>cfa ( ramWordEntry -- cfa ) 4 + @ ;
+: countRamWords ( -- n ) 0 ramLast
   begin dup
-  while swap 1 + swap >link @
+  while swap 1 + swap entry>link @
   repeat drop ;
 
 : ramWords \ ( -- ) show all words defined in ram
   ramLast
   begin dup
-  while dup >cfa .name space >link @
+  while dup entry>cfa .name space entry>link @
   repeat drop ;
   
 : words \ ( -- ) show all words defined in ram and rom
@@ -53,12 +72,13 @@
   countRomWords countRamWords +
   ramLast
   begin dup
-  while swap dup . 1 - swap dup >cfa (see) >link @
+  while swap dup . 1 - swap dup entry>cfa (see) entry>link @
   repeat 2drop ;
 
 : seeRomWords \ ( -- ) see all words in rom
   countRomWords
-  begin dup while dup . dup (see) 1 -
+  begin dup
+  while dup . dup (see) 1 -
   repeat drop ;
 
 : seeAll \ ( -- ) see all words

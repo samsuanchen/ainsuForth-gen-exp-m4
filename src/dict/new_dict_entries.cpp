@@ -1692,7 +1692,7 @@ void _key_question(void) {
 
 
 const char psee_str[] = "(see)";
-// ( xt -- )
+// ( xt -- ) need to fix con-sys and var-sys samsuanchen@gmail.com 20190508
 void _psee(void) {
     bool isLiteral, done;
     if (errorCode) return;
@@ -1707,40 +1707,40 @@ void _psee(void) {
         Serial.printf(" (romEntry %x)", &flashDict[xt-1]); 
     } else {
     	Serial.print("HighLevel Colon Word "); xtToName(xt); 
-        Serial.printf(" (ramCFA %X)", xt);
-        cell_t* addr = (cell_t*)xt;
-        Serial.print("\r\n    Addr       XT      Name");
+    	cell_t* addr =  (cell_t*)xt; addr--;
+    	while (*(--addr) != xt); addr--;
+        Serial.printf(" (ramEntry %X)", addr);
+        addr = (cell_t*)xt;
         do {
-            done = isLiteral = false;
-            Serial.print("\r\n");
-            Serial.print((size_t)addr, HEX);
             cell_t n = *addr;
-            Serial.printf(" %08X ", n);
-            xtToName(*addr);
-            switch (*addr) {
-                case 2:
+            done = isLiteral = false;
+            Serial.printf("\n%x %08x ", (size_t)addr, n);
+            xtToName(n);
+            switch (n) {
+                case VARIABLE_IDX:
+                case CONST_IDX:
+            		Serial.printf("\n%x %08x ", (size_t)(++addr), *addr);
+            		done = true;
+            		break;
+                case LITERAL_IDX:
                     isLiteral = true;
-                case 4:
-                case 5:
+                case JUMP_IDX:
+                case ZJUMP_IDX:
+                case LOOP_SYS_IDX:
                     Serial.printf("(%08X)", *++addr,HEX);
                     break;
-                case 9:
-                    Serial.printf("(%08X)", *++addr,HEX);
-                    break;
-                case 13:
-                case 14:
+                case S_QUOTE_IDX:
+                case DOT_QUOTE_IDX:
                     Serial.print(sp_str);
-                    char *ptr = (char*)++addr;
-                    while (*ptr) {
-                        Serial.print(*ptr++);
-                    }
+                    char *ptr = (char*)(++addr);
+                    while (*ptr) Serial.print(*ptr++);
                     Serial.print("\x22");
                     addr = (cell_t *)((int)ptr&-4); // samsuanchen@gmail.com 20190503
                   //ALIGN_P(addr); // samsuanchen@gmail.com 20190503
                     break;
             } // switch
             // We're done if exit code but not a literal with value of one
-            done = ((*addr++ == 1) && (! isLiteral));
+            done = done || ((*addr++ == EXIT_IDX) && (! isLiteral));
         } while (! done); // do
     } // else
     Serial.println();

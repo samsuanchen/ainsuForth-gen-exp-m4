@@ -10,11 +10,17 @@
 /******************************************************************************/
 /**                                                                          **/
 /******************************************************************************/
+const char con_sys_str[] = "con-sys";
+// ( -- n )
+void _con_sys(void) {
+	dStack_push(*ip);
+	_exit();
+}
 const char constant_str[] = "constant";
 // ( x"<spaces>name" --  )
 void _constant(void) {
   openEntry();
-  *pHere++ = LITERAL_IDX;
+  *pHere++ = CONST_IDX;
   *pHere++ = dStack_pop();
   closeEntry();
 }

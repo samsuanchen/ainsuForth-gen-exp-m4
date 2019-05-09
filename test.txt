@@ -39,18 +39,20 @@
   while dup .name space 1-
   repeat drop ;
 
-: >flag ( cfa -- flag ) dup cell-
+: >ffa ( cfa -- ffa ) dup cell-
   begin cell- 2dup @ =
-  until cell+ c@ nip ;
-: >name ( cfa -- nameAdr ) >flag 1+ ;
+  until cell+ nip ;
+: >name ( cfa -- nameAdr ) >ffa 1+ ;
 : print ( zStr -- )
   begin dup c@ dup
   while emit 1+
   repeat 2drop ;
+  
 : .name ( cfa -- ) >name print ;
 : .id ( nfa -- ) 1+ print ;
 : immediate? ( flag -- ) $80 and ;
 : compile-only? ( flag -- ) $40 and ;
+: smudge? ( flag -- ) $20 and ;
 
 : entry>link ( ramWordEntry -- lfa ) ;
 : entry>cfa ( ramWordEntry -- cfa ) 4 + @ ;
@@ -82,7 +84,7 @@
   repeat drop ;
 
 : seeAll \ ( -- ) see all words
-  seeRamWords seeRomWords ;
+  cr seeRamWords seeRomWords ;
 
 words
 

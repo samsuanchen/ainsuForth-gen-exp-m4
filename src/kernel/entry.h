@@ -3,7 +3,7 @@
 
 // prototypes - these words
 extern void openEntry(void);
-extern void closeEntry(void);
+extern void endEntry(void);
 
 // prototypes - variables
 extern char cTokenBuffer[WORD_SIZE];  // Stores Single Parsed token to be acted on

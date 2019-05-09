@@ -465,12 +465,11 @@ void loop(void) {
             // }
         } else {
 
-
-        if (silentReading) {
-            int fake_SRT = 0;
-        } else {
-            Serial.println(ok_str); // Leo Brodie 'Starting Forth' expects an ok here
-        }
+	        if (silentReading) {
+	            int fake_SRT = 0;
+	        } else {
+	            if (! state) Serial.println(ok_str); // Leo Brodie 'Starting Forth' expects an ok here
+	        }
         }
     } // replace these four lines with a single closing curly brace
       // to restore YAFFA behavior.
@@ -481,7 +480,7 @@ void loop(void) {
         if (silentReading && spiFlashReading) {
             int siRea = 0;
         } else {
-            compilePrompt();
+        // compilePrompt();
         }
     } else {
 

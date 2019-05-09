@@ -742,7 +742,7 @@ void _lt(void) {
                        // subroutine pointer created by DOES>
 //   pDoes = pHere;       // Save this location for uses by subroutine.
 //   pHere += 1;
-//   if (!state) closeEntry();           // Close the entry if interpreting
+//   if (!state) endEntry();           // Close the entry if interpreting
 // }
 
 // const char depth_str[] = "depth";
@@ -1349,7 +1349,7 @@ void _source(void) {
 //     openEntry();
 //     *pHere++ = VARIABLE_IDX;
 //     *pHere++ = 0;
-//     closeEntry();
+//     endEntry();
 //   }
 // }
 #endif
@@ -1693,18 +1693,33 @@ void _key_question(void) {
 
 const char psee_str[] = "(see)";
 // ( xt -- ) need to fix con-sys and var-sys samsuanchen@gmail.com 20190508
-void _psee(void) {
-    bool isLiteral, done;
-    if (errorCode) return;
-    char flags = wordFlags;
-	Serial.println();
+cell_t* cfaToEntry(cell_t cfa) {
+    cell_t* addr =  (cell_t*) cfa; addr--;
+    while (*(--addr) != cfa); addr--;
+	return addr;
+}
+cell_t* wordEntry(cell_t xt) {
+	cell_t* entry;
+    if (xt < 255) entry = (cell_t*) &flashDict[xt-1];
+    else		  entry = cfaToEntry(xt);
+    return entry;
+}
+void _showWordType(cell_t xt) {
+	cell_t* entry = wordEntry(xt);
+	int flags = *((char*)(entry+2));
     if (flags && SMUDGE   ) Serial.print("SMUDGE "   );
     if (flags && COMP_ONLY) Serial.print("COMP_ONLY ");
     if (flags && IMMEDIATE) Serial.print("IMMEDIATE ");
+}
+void _psee(void) {
+    bool isLiteral, done;
+    if (errorCode) return;
     cell_t xt = dStack_pop();
+	Serial.println();
+    _showWordType(xt);
     if (xt < 255) {
     	Serial.print("LowLevel Primitive Word "); xtToName(xt); 
-        Serial.printf(" (romEntry %x)", &flashDict[xt-1]); 
+        Serial.printf(" (romEntry %X)", &flashDict[xt-1]); 
     } else {
     	Serial.print("HighLevel Colon Word "); xtToName(xt); 
     	cell_t* addr =  (cell_t*)xt; addr--;
@@ -1714,12 +1729,12 @@ void _psee(void) {
         do {
             cell_t n = *addr;
             done = isLiteral = false;
-            Serial.printf("\n%x %08x ", (size_t)addr, n);
+            Serial.printf("\r\n%xX %08X ", (size_t)addr, n);
             xtToName(n);
             switch (n) {
                 case VARIABLE_IDX:
                 case CONST_IDX:
-            		Serial.printf("\n%x %08x ", (size_t)(++addr), *addr);
+            		Serial.printf("\r\n%X %08X ", (size_t)(++addr), *addr);
             		done = true;
             		break;
                 case LITERAL_IDX:

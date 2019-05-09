@@ -10,7 +10,7 @@ extern void _colon(void);
 extern void _semicolon(void);
 
 extern void openEntry(void);
-extern void closeEntry(void);
+extern void endEntry(void);
 extern void dStack_push(cell_t value);
 extern cell_t dStack_pop(void);
 extern void _throw(void);

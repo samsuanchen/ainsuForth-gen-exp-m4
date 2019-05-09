@@ -5,6 +5,7 @@
 #include "../../yaffa.h"
 #include "../../flashDict.h"
 #include "../../Dictionary.h"
+#include "./colon_semi.h"
 // #include "../../Error_Codes.h"
 
 // const char not_done_str[] = " NOT Implemented Yet \n\r";
@@ -39,7 +40,7 @@ void _semicolon(void) {
     _throw();
     return;
   }
-  closeEntry();
+  endEntry();
   state = FALSE;
 }
 

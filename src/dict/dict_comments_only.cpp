@@ -757,7 +757,7 @@
                        // subroutine pointer created by DOES>
 //   pDoes = pHere;       // Save this location for uses by subroutine.
 //   pHere += 1;
-//   if (!state) closeEntry();           // Close the entry if interpreting
+//   if (!state) endEntry();           // Close the entry if interpreting
 // }
 
 // const char depth_str[] = "depth";
@@ -1365,7 +1365,7 @@
 //     openEntry();
 //     *pHere++ = VARIABLE_IDX;
 //     *pHere++ = 0;
-//     closeEntry();
+//     endEntry();
 //   }
 // }
 

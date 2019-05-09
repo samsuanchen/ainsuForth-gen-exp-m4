@@ -37,13 +37,16 @@ void openEntry(void) {
 /******************************************************************************/
 /** Finish an new Entry in the Dictionary ** close a colon word              **/
 /******************************************************************************/
-void closeEntry(void) {
+void closeEntry(void) { // samsuanchen@gmail.com.tw 20190509
   if (errorCode == 0) {
-    *pHere++ = EXIT_IDX;
     pNewUserEntry->flags = 0; // clear the word's flags
     pLastUserEntry = pNewUserEntry;
   } else pHere = pOldHere;   // Revert pHere to what it was before the start
                              // of the new word definition
+}
+void endEntry(void) { // samsuanchen@gmail.com.tw 20190509
+  if (errorCode == 0) *pHere++ = EXIT_IDX;
+  closeEntry();
 }
 
 #endif
